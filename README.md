@@ -38,11 +38,13 @@ we want the system to recognize four entities:
 
 The results must be provided in [NIF](http://persistence.uni-leipzig.org/nlp2rdf/) format, including the offsets of recognized entities. The expected output for the example sentence can be found in [task1.ttl](./example_data/task1.ttl)
 
-We will evaluate three aspects on this task:
+We will evaluate three aspects on this task, independently:
 
-- Ability to recognize entities: we will check if all strings recognizing entities are identified, using the offsets returned by the systems. Only full matches are counted as correct (e.g. if the system returns "Art School" instead of "National Art School" is counted as a miss).
-- Ability to assign the correct type: evaluation will be carried out only on the 4 target DOLCE types.
-- Ability to link individuals to DBpedia: participants must link entities to DBpedia only when relevant (in the example sentence, the referred Douglas Robert Dundas is not present in DBpedia)
+- Ability to recognize entities: we will check if all strings recognizing entities are identified, using the offsets returned by the systems. **Only full matches are counted as correct** (e.g. if the system returns "Art School" instead of "National Art School" is counted as a miss).
+- Ability to **assign the correct type**: evaluation will be carried out only on the 4 target DOLCE types.
+- Ability to **link individuals to DBpedia 2014**: participants must **link** entities to DBpedia **only when relevant** (in the example sentence, the referred Douglas Robert Dundas is not present in DBpedia)
+
+We will calculate Precision, recall and F1 for the three subtasks and the winner for task 1 will be the system with higher average F1 for all three.
 
 Task 2
 =========
@@ -70,10 +72,12 @@ As an example, for the sentence:
 
 The results must be provided in [NIF](http://persistence.uni-leipzig.org/nlp2rdf/) format, including the offsets of recognized string describing the type. The expected output for the example sentence can be found in [task2.ttl](./example_data/task2.ttl)
 
-We will evaluate three aspects on this task:
+We will evaluate two aspects on this task, independently:
 
-- Ability to recognize strings that describe the type of a target entity. As string describing types often include adjectives as modifiers (in the example above, "fictional" is a modifier for villain), in the Gold Standard we will include all possible options; the system answer will be counted correct as long as at least one of the possibility is returned.
-- Ability to align the identified type with a reference ontology, which for this evaluation will be the subset of [DOLCE+DnS Ultra Lite classes](http://ontologydesignpatterns.org/ont/wikipedia/d0.owl)
+- Ability to **recognize strings that describe the type of a target entity**. As string describing types often include adjectives as modifiers (in the example above, "fictional" is a modifier for villain), in the Gold Standard we will include all possible options; the system answer will be counted **correct as long as at least one of the possibility is returned**.
+- Ability to align the identified type with a reference ontology, which for this evaluation will be the subset of [DOLCE+DnS Ultra Lite classes](http://ontologydesignpatterns.org/ont/wikipedia/d0.owl). 
+
+We will calculate Precision, recall and F1 for the two subtasks and the winner for task 2 will be the system with higher average F1 for the two of them.
 
 
 Task 3
