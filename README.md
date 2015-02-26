@@ -2,12 +2,18 @@ Guidelines for OKE-challenge@ESWC2015
 =========
 
 This folder contains guidelines an materials for the Open Knowledge Extraction challenge at ESWC2015.
+The OKE challenge consists of three tasks, participant can choose to participate to one of more of them.
+Each task will have a separate dataset. All sentences in the three dataset are of enciclopeadic nature. The majority of sentences are descriptive of with respect to one main entity, e.g. if the main entity is a person the sentence will be of biographic nature.
 
-**Example data**, is available in folder [example_data](./example_data)
+The **example data** used in the following description of tasks is available in folder [example_data](./example_data)
 
 **Training data**, will be available in folder [training_data](./training_data)
 
-After the initial paper submission the participants will be able to test their systems on [GERBIL](http://gerbil.aksw.org/gerbil/config), where the three tasks will be added. The take advantage of the the facility, participants must provide their annotators as webservice URI, with input/output provided in [NIF](http://persistence.uni-leipzig.org/nlp2rdf/) format. 
+Participants must:
+
+1. Submit a paper describing their system, via [EasyChair](https://easychair.org/conferences/?conf=oke2015), no later then **March 27, 2015**. The paper should contain the details of the system, including why the system is innovative, how it uses Semantic Web, which features or functions the system provides, what design choices were made and what lessons were learned. The description should also summarise how participants have addressed the evaluation task(s). Papers must be submitted in PDF format, following the style of the Springer's Lecture Notes in Computer Science (LNCS) series (http://www.springer.com/computer/lncs/lncs+authors), and not exceeding 12 pages in length. 
+2. Provide access to the application as webservice, with input/output provided in [NIF](http://persistence.uni-leipzig.org/nlp2rdf/) format. The final evaluation  will be carried out via [GERBIL](http://gerbil.aksw.org). The implementation of the evaluation for three tasks will be added on GERBIL after the accepance of notification (**April 9, 2015**), and it will be accessible as open source code as well as [Web demo](http://gerbil.aksw.org/gerbil/config). Participants will then have time to autonomously test their system using GERBIL until the **May 15, 2015**.
+3. The URI for the final system must be provided by **May 15, 2015** when the organizers will evaluate the systems against the **evaluation dataset**, which will be publicly released after announcement of results.
 
 Task 1
 =========
