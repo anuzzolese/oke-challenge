@@ -1,0 +1,83 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix d0: <http://ontologydesignpatterns.org/ont/wikipedia/d0.owl>
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>
+@prefix oke: <http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> 
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/sentence-1>
+      a       nif:Context ;
+      nif:isString "In 1956 Coleman moved to Chicago, along with Booker Little, where he worked with Gene Ammons and Johnny Griffin before joining Max Roach Quintet 1958-1959." .
+
+<http://dbpedia.org/resource/George_Coleman>
+      rdfs:label "George Coleman"@en ; 
+      dc:relation oke:8_15_Coleman ;
+      oke:workWith dbpedia:Gene_Ammons .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/8_15_Coleman>
+     a       nif:OffsetBasedString ;
+     nif:referenceContext oke:sentence-1 ;
+     nif:beginIndex "8"^^xsd:int ;
+     nif:endIndex "15"^^xsd:int .
+     
+<http://dbpedia.org/resource/Gene_Ammons>
+      rdfs:label "Gene Ammons"@en ; 
+      dc:relation oke:81_92_Gene_Ammons ;
+        
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/81_92_Gene_Ammons>
+     a       nif:OffsetBasedString ;
+     nif:referenceContext oke:sentence-1 ;
+     nif:beginIndex "81"^^xsd:int ;
+     nif:endIndex "92"^^xsd:int .
+     
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/workedWith>
+     a       owl:ObjectProperty ;
+     rdfs:label "worked with"@en ;
+     dc:relation oke:69_80_workedWith .
+     
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/69_80_workedWith>
+     a       nif:OffsetBasedString ;
+     nif:referenceContext oke:sentence-1 ;
+     nif:beginIndex "69"^^xsd:int ;
+     nif:endIndex "80"^^xsd:int .
+     
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/sentence-2>
+      a       nif:Context ;
+      nif:isString "Mike Bauer was a member of the American Davis Cup team. Mike Bauer graduated from Miramonte High School in Orinda, California. Mike_Bauer is the former Director of Tennis at Harbor Bay Club in Alameda, California. Mike_Bauer now lives in Germany with his family." .
+      
+<http://dbpedia.org/resource/Mike_Bauer>
+      rdfs:label "Mike Bauer"@en ; 
+      dc:relation oke:54_66_Mike_Bauer ;
+      oke:graduatedFrom dbpedia:Miramonte_High_School .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/54_66_Mike_Bauer>
+     a       nif:OffsetBasedString ;
+     nif:referenceContext oke:sentence-2 ;
+     nif:beginIndex "54"^^xsd:int ;
+     nif:endIndex "66"^^xsd:int .      
+
+<http://dbpedia.org/resource/Miramonte_High_School>
+      rdfs:label "Miramonte High School"@en ; 
+      dc:relation oke:82_103_Miramonte_High_School .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/82_103_Miramonte_High_School>
+     a       nif:OffsetBasedString ;
+     nif:referenceContext oke:sentence-2 ;
+     nif:beginIndex "82"^^xsd:int ;
+     nif:endIndex "103"^^xsd:int .           
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/graduatedFrom>
+     a       owl:ObjectProperty ;
+     rdfs:label "graduated from"@en ;
+     dc:relation oke:87_101_graduatedFrom .     
+     
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/87_101_graduatedFrom>
+     a       nif:OffsetBasedString ;
+     nif:referenceContext oke:sentence-2 ;
+     nif:beginIndex "87"^^xsd:int ;
+     nif:endIndex "101"^^xsd:int .
