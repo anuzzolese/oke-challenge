@@ -144,10 +144,10 @@ oke:workedWith
      dc:relation oke:69_80_workedWith .
 ```
 
-The results must be provided in [NIF](http://persistence.uni-leipzig.org/nlp2rdf/) format, including the offsets of recognized string(s) describing the relation. If the strings expressing the relation in the text are not contiguous, participants can return multiple offset statements. 
+The results must be provided in [NIF](http://persistence.uni-leipzig.org/nlp2rdf/) format, including the offsets of recognized string(s) describing the relation. 
+The expected output for the example sentence can be found in [task3.ttl](./example_data/task3.ttl).
 
-
-
+If the strings expressing the relation in the text are not contiguous, participants can return multiple offset statements. 
 
 For example, for the sentence:
 
@@ -167,8 +167,6 @@ oke:receivedphdfrom
      rdfs:label "received a Ph.D. from"@en ;
      dc:relation oke:74_82_received, oke:60_170_phd_from .
 ```
-
-The expected output for the example sentence can be found in [task3.ttl](./example_data/task3.ttl).
 
 
 We will evaluate two aspects on this task, independently:
