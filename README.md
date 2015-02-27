@@ -15,6 +15,7 @@ Participants must:
 2. Provide access to the application as webservice, with input/output provided in [NIF](http://persistence.uni-leipzig.org/nlp2rdf/) format. The final evaluation  will be carried out via [GERBIL](http://gerbil.aksw.org). The implementation of the evaluation for three tasks will be added on GERBIL after the acceptance of notification (**April 9, 2015**), and it will be accessible as open source code as well as [Web demo](http://gerbil.aksw.org/gerbil/config). Participants will then have time to autonomously test their system using GERBIL until the **May 15, 2015**.
 3. The URI for the final system must be provided by **May 15, 2015** when the organizers will evaluate the systems against the **evaluation dataset**, which will be publicly released after announcement of results.
 
+
 Task 1
 =========
 
@@ -37,12 +38,18 @@ we want the system to recognize four entities:
 
 | Recognized Entity    | generated URI | Type     | SameAs|
 | ------------- |:-------------|:-------------:| -----:|
-| Florence May Harding      |http://www.ontologydesignpatterns.org/data/oke-challenge/Florence_May_Harding| dul:Person | dbpedia:Florence_May_Harding |
-| National Art School      | http://www.ontologydesignpatterns.org/data/oke-challenge/National_Art_School|dul:Organization    |   dbpedia:National_Art_School |
-| Sydney | http://www.ontologydesignpatterns.org/data/oke-challenge/Sydney| dul:Place      |    dbpedia:Sydney  |
-| Douglas Robert Dundas |http://www.ontologydesignpatterns.org/data/oke-challenge/Douglas_Robert_Dundas| dul:Person      |      |
+| Florence May Harding      |oke:Florence_May_Harding| dul:Person | dbpedia:Florence_May_Harding |
+| National Art School      | oke:National_Art_School|dul:Organization    |   dbpedia:National_Art_School |
+| Sydney | oke:Sydney| dul:Place      |    dbpedia:Sydney  |
+| Douglas Robert Dundas |oke:Douglas_Robert_Dundas| dul:Person      |      |
 
-The results must be provided in [NIF](http://persistence.uni-leipzig.org/nlp2rdf/) format, including the offsets of recognized entities. The expected output for the example sentence can be found in [task1.ttl](./example_data/task1.ttl)
+The results must be provided in [NIF](http://persistence.uni-leipzig.org/nlp2rdf/) format, including the offsets of recognized entities. The expected output for the example sentence can be found in [task1.ttl](./example_data/task1.ttl).
+In the above example we use
+
+```
+@prefix oke: <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/>
+```
+
 
 We will evaluate three aspects on this task, independently:
 
@@ -73,10 +80,16 @@ As an example, for the sentence:
 
 | Recognized string for the type    | Generated Type     | rsubClassOf|
 | ------------- |:-------------| -----:|
-| fictional villain      |http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/FictionalVillain| dul:Personification | 
-| villain      | http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Villain|dul:Person    |  
+| fictional villain      |oke:FictionalVillain| dul:Personification | 
+| villain      | oke:Villain|dul:Person    |  
 
-The results must be provided in [NIF](http://persistence.uni-leipzig.org/nlp2rdf/) format, including the offsets of recognized string describing the type. The expected output for the example sentence can be found in [task2.ttl](./example_data/task2.ttl)
+The results must be provided in [NIF](http://persistence.uni-leipzig.org/nlp2rdf/) format, including the offsets of recognized string describing the type. The expected output for the example sentence can be found in [task2.ttl](./example_data/task2.ttl).
+In the above example we use
+
+```
+@prefix oke: <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/>
+```
+
 
 We will evaluate two aspects on this task, independently:
 
@@ -98,10 +111,16 @@ b. <relation> is the OWL property learnt as predicate.
 The URI for the predicate must be created by the participants and we will not require the linking with a reference KB.
 The participants are encouraged to use the following rule to create the URI for the relation:
 
-* use http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/ as prefix
-* and concatenate a chosen name for the relation
+* use the namespace <http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/> (in the following the prefix oke is used)
+* and concatenate an arbitrary chosen name for the relation
 
 The participants are required to produce a label for the relation, using the rdfs:label statement. The label should include the portion of text that expresses the relation.
+
+For all examples of task 3 we use
+
+```
+@prefix oke: <http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/>
+```
 
 
 As an example, for the sentence: 
@@ -117,13 +136,36 @@ The system is expected to identify that the text expresses a relation between th
 
 
 ```
-<http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/workedWith>
+oke:workedWith
      a       owl:ObjectProperty ;
      rdfs:label "worked with"@en ;
      dc:relation oke:69_80_workedWith .
 ```
 
-The results must be provided in [NIF](http://persistence.uni-leipzig.org/nlp2rdf/) format, including the offsets of recognized string(s) describing the relation. If the strings expressing the relation in the text are not contiguous, participants can return multiple offeset statements. 
+The results must be provided in [NIF](http://persistence.uni-leipzig.org/nlp2rdf/) format, including the offsets of recognized string(s) describing the relation. If the strings expressing the relation in the text are not contiguous, participants can return multiple offset statements. 
+
+
+
+
+For example, for the sentence:
+
+>Wayne Koestenbaum (born 1958) is an American poet and cultural critic. He received a B.A. from Harvard University, an M.A. from Johns Hopkins University, and a Ph.D. from Princeton University.
+
+where the two given input entities are:
+
+- http://dbpedia.org/resource/Wayne_Koestenbaum
+- http://dbpedia.org/page/Princeton_University
+
+
+We expect the participants 
+
+```
+oke:receivedphdfrom
+     a       owl:ObjectProperty ;
+     rdfs:label "received a Ph.D. from"@en ;
+     dc:relation oke:74_82_received, oke:60_170_phd_from .
+```
+
 The expected output for the example sentence can be found in [task3.ttl](./example_data/task3.ttl).
 
 
