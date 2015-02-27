@@ -48,7 +48,7 @@
      
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/sentence-2>
       a       nif:Context ;
-      nif:isString "Mike Bauer was a member of the American Davis Cup team. Mike Bauer graduated from Miramonte High School in Orinda, California. Mike_Bauer is the former Director of Tennis at Harbor Bay Club in Alameda, California. Mike_Bauer now lives in Germany with his family." .
+      nif:isString "Mike Bauer was a member of the American Davis Cup team. Mike Bauer graduated from Miramonte High School in Orinda, California. Mike_Bauer is the former Director of Tennis at Harbor Bay Club in Alameda, California. Mike Bauer now lives in Germany with his family." .
       
 <http://dbpedia.org/resource/Mike_Bauer>
       rdfs:label "Mike Bauer"@en ; 

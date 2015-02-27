@@ -1,9 +1,9 @@
 Guidelines for OKE-challenge@ESWC2015
 =========
 
-This folder contains guidelines an materials for the Open Knowledge Extraction challenge at ESWC2015.
-The OKE challenge consists of three tasks, participant can choose to participate to one of more of them.
-Each task will have a separate dataset. All sentences in the three dataset are of enciclopeadic nature. The majority of sentences are descriptive of with respect to one main entity, e.g. if the main entity is a person the sentence will be of biographic nature.
+This folder contains guidelines and materials for the Open Knowledge Extraction challenge at ESWC2015.
+The OKE challenge consists of three tasks, participants can choose to compete in one of more of them.
+Each task will have a separate dataset. All sentences in the three datasets are of encyclopedic nature. The majority of sentences are descriptive of with respect to one main entity, e.g. if the main entity is a person the sentence will be of biographic nature.
 
 The **example data** used in the following description of tasks is available in folder [example_data](./example_data)
 
@@ -12,7 +12,7 @@ The **example data** used in the following description of tasks is available in 
 Participants must:
 
 1. Submit a paper describing their system, via [EasyChair](https://easychair.org/conferences/?conf=oke2015), no later then **March 27, 2015**. The paper should contain the details of the system, including why the system is innovative, how it uses Semantic Web, which features or functions the system provides, what design choices were made and what lessons were learned. The description should also summarise how participants have addressed the evaluation task(s). Papers must be submitted in PDF format, following the style of the Springer's Lecture Notes in Computer Science (LNCS) series (http://www.springer.com/computer/lncs/lncs+authors), and not exceeding 12 pages in length. 
-2. Provide access to the application as webservice, with input/output provided in [NIF](http://persistence.uni-leipzig.org/nlp2rdf/) format. The final evaluation  will be carried out via [GERBIL](http://gerbil.aksw.org). The implementation of the evaluation for three tasks will be added on GERBIL after the accepance of notification (**April 9, 2015**), and it will be accessible as open source code as well as [Web demo](http://gerbil.aksw.org/gerbil/config). Participants will then have time to autonomously test their system using GERBIL until the **May 15, 2015**.
+2. Provide access to the application as webservice, with input/output provided in [NIF](http://persistence.uni-leipzig.org/nlp2rdf/) format. The final evaluation  will be carried out via [GERBIL](http://gerbil.aksw.org). The implementation of the evaluation for three tasks will be added on GERBIL after the acceptance of notification (**April 9, 2015**), and it will be accessible as open source code as well as [Web demo](http://gerbil.aksw.org/gerbil/config). Participants will then have time to autonomously test their system using GERBIL until the **May 15, 2015**.
 3. The URI for the final system must be provided by **May 15, 2015** when the organizers will evaluate the systems against the **evaluation dataset**, which will be publicly released after announcement of results.
 
 Task 1
@@ -94,5 +94,43 @@ Task 3
 The participants will be given as input a sentence and two entities contained in the sentence. The task consists in (i) assessing whether the sentence contains an evidence of a relation between the two input entities and if true (ii) the creation of a OWL property representing the relation, including a value for its rdf:label annotation statement, and (iii) the production of a statement for the relation.
 The triple must be of the form <entity1> <relation> <entity2>; where: 
 a. <entity1>, <entity2> are the input URIs, i.e., the given pair of entities as subject and object of the statement 
-b. <relation> is the learnt OWL property as predicate. 
-The URI for the predicate must be created by the participants; we will not require the linking with a reference KB, but we will provide a formalism to produce the URI for the relation and use string similarity measure to assess the results against a Gold Standard.
+b. <relation> is the OWL property learnt as predicate. 
+The URI for the predicate must be created by the participants and we will not require the linking with a reference KB.
+The participants are encouraged to use the following rule to create the URI for the relation:
+
+* use http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/ as prefix
+* and concatenate a chosen name for the relation
+
+The participants are required to produce a label for the relation, using the rdfs:label statement. The label should include the portion of text that expresses the relation.
+
+
+As an example, for the sentence: 
+
+> In 1956 Coleman moved to Chicago, along with Booker Little, where he worked with Gene Ammons and Johnny Griffin before joining Max Roach Quintet 1958-1959.
+
+We will give as input the two entities
+
+- http://dbpedia.org/resource/George_Coleman
+- http://dbpedia.org/resource/Gene_Ammons
+
+The system is expected to identify that the text expresses a relation between the two and to produce a statement such as 
+
+
+```
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/workedWith>
+     a       owl:ObjectProperty ;
+     rdfs:label "worked with"@en ;
+     dc:relation oke:69_80_workedWith .
+```
+
+The results must be provided in [NIF](http://persistence.uni-leipzig.org/nlp2rdf/) format, including the offsets of recognized string(s) describing the relation. If the strings expressing the relation in the text are not contiguous, participants can return multiple offeset statements. 
+The expected output for the example sentence can be found in [task3.ttl](./example_data/task3.ttl).
+
+
+We will evaluate two aspects on this task, independently:
+
+- Ability to recognize if a text expresses a relation or not. Being a binary task, we will count the percentage of correct answers.
+- Ability to produce a meaningful label for an identified relation. We will use a similarity measure of the produced string against the gold standard. As final measure we will score systems based on the average similarity score of all produced relation labels.
+
+The winner for task 3 will be the system with higher linear combination of the score for the two subtasks.
+
