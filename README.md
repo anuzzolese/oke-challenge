@@ -44,6 +44,7 @@ we want the system to recognize four entities:
 | Douglas Robert Dundas |oke:Douglas_Robert_Dundas| dul:Person      |      |
 
 The results must be provided in [NIF](http://persistence.uni-leipzig.org/nlp2rdf/) format, including the offsets of recognized entities. The expected output for the example sentence can be found in [task1.ttl](./example_data/task1.ttl).
+
 In the above example we use
 
 ```
@@ -84,6 +85,7 @@ As an example, for the sentence:
 | villain      | oke:Villain|dul:Person    |  
 
 The results must be provided in [NIF](http://persistence.uni-leipzig.org/nlp2rdf/) format, including the offsets of recognized string describing the type. The expected output for the example sentence can be found in [task2.ttl](./example_data/task2.ttl).
+
 In the above example we use
 
 ```
@@ -111,7 +113,7 @@ b. <relation> is the OWL property learnt as predicate.
 The URI for the predicate must be created by the participants and we will not require the linking with a reference KB.
 The participants are encouraged to use the following rule to create the URI for the relation:
 
-* use the namespace <http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/> (in the following the prefix oke is used)
+* use the namespace <http://www.ontologydesignpatterns.org/data/oke-challenge/task-3/>
 * and concatenate an arbitrary chosen name for the relation
 
 The participants are required to produce a label for the relation, using the rdfs:label statement. The label should include the portion of text that expresses the relation.
