@@ -19,7 +19,7 @@ Participants must:
 Task 1
 =========
 
-*Named Entity Resolution, Linking and Typing for Knowledge Base population.*
+*Named Entity Recognition, Linking and Typing for Knowledge Base population.*
 
 This task consists of (i) identifying Named Entities in a sentence and create an OWL individual (owl:Individual statement) representing it, (ii) assigning a type to such individual (rdf:type statement) selected from a set of given types and (iii) link (owl:sameAs statement) such individual, when possible, to a reference KB (DBpedia).
 
