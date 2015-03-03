@@ -3,150 +3,149 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
-@prefix d0: <http://ontologydesignpatterns.org/ont/wikipedia/d0.owl> .
+@prefix d0: <http://ontologydesignpatterns.org/ont/wikipedia/d0.owl#> .
 @prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
 @prefix oke: <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-1#char=0,161>
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=0,160>
         a               nif:RFC5147String , nif:String , nif:Context ;
         nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
-        nif:endIndex    "161"^^xsd:nonNegativeInteger ;
-        nif:isString    "Florence May Harding studied at the National Art School in Sydney, and with Douglas Robert Dundas , but in effect had no formal training in either botany or art."^^xsd:string .
+        nif:endIndex    "160"^^xsd:nonNegativeInteger ;
+        nif:isString    "Florence May Harding studied at the National Art School in Sydney, and with Douglas Robert Dundas , but in effect had no formal training in either botany or art."@en .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/Florence_May_Harding>
+oke:Florence_May_Harding
      a        dul:Person ;
      rdfs:label "Florence May Harding"@en ;
      owl:sameAs dbpedia:Florence_May_Harding .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-1#char=0,20>
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=0,19>
         a                     nif:RFC5147String , nif:String ;
-        nif:anchorOf          "Florence May Harding"^^xsd:string ;
+        nif:anchorOf          "Florence May Harding"@en ;
         nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
-        nif:endIndex          "20"^^xsd:nonNegativeInteger ;
-        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-1#char=0,161> ;
-        itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/Florence_May_Harding> .
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=0,160> ;
+        itsrdf:taIdentRef     oke:Florence_May_Harding .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/National_Art_School>
+oke:National_Art_School
      a        dul:Organization ;
      rdfs:label "National Art School"@en ;
      owl:sameAs dbpedia:National_Art_School .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-1#char=36,55>
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=36,54>
         a                     nif:RFC5147String , nif:String ;
-        nif:anchorOf          "National Art School"^^xsd:string ;
+        nif:anchorOf          "National Art School"@en ;
         nif:beginIndex        "36"^^xsd:nonNegativeInteger ;
-        nif:endIndex          "55"^^xsd:nonNegativeInteger ;
-        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-1#char=0,161> ;
-        itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/National_Art_School> .
+        nif:endIndex          "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=0,160> ;
+        itsrdf:taIdentRef     oke:National_Art_School .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/Sydney>
+oke:Sydney
      a        d0:Location ;
      rdfs:label "Sydney"@en ;
      owl:sameAs dbpedia:Sydney .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-1#char=59,65>
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=59,64>
         a                     nif:RFC5147String , nif:String ;
-        nif:anchorOf          "Sydney"^^xsd:string ;
+        nif:anchorOf          "Sydney"@en ;
         nif:beginIndex        "59"^^xsd:nonNegativeInteger ;
-        nif:endIndex          "65"^^xsd:nonNegativeInteger ;
-        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-1#char=0,161> ;
-        itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/Sydney> .
+        nif:endIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=0,160> ;
+        itsrdf:taIdentRef     oke:Sydney .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/Douglas_Robert_Dundas>
+oke:Douglas_Robert_Dundas
      a        dul:Person ;
      rdfs:label "Douglas Robert Dundas"@en .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-1#char=59,65>
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=76,96>
         a                     nif:RFC5147String , nif:String ;
-        nif:anchorOf          "Sydney"^^xsd:string ;
-        nif:beginIndex        "59"^^xsd:nonNegativeInteger ;
-        nif:endIndex          "65"^^xsd:nonNegativeInteger ;
-        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-1#char=0,161> ;
-        itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/Sydney> .
-     
-<http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-2#char=0,192>
+        nif:anchorOf          "Douglas Robert Dundas"@en ;
+        nif:beginIndex        "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=0,160> ;
+        itsrdf:taIdentRef     oke:Douglas_Robert_Dundas .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,191>
         a               nif:RFC5147String , nif:String , nif:Context ;
         nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
-        nif:endIndex    "192"^^xsd:nonNegativeInteger ;
-        nif:isString    "Such notables include James Carville, who was the senior political adviser to Bill Clinton, and Donna Brazile, the campaign manager of the 2000 presidential campaign of Vice-President Al Gore."^^xsd:string .
+        nif:endIndex    "191"^^xsd:nonNegativeInteger ;
+        nif:isString    "Such notables include James Carville, who was the senior political adviser to Bill Clinton, and Donna Brazile, the campaign manager of the 2000 presidential campaign of Vice-President Al Gore."@en .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/James_Carville>
+oke:James_Carville
      a        dul:Person ;
      rdfs:label "James Carville"@en ;
      owl:sameAs dbpedia:James_Carville .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-2#char=22,36>
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=22,35>
         a                     nif:RFC5147String , nif:String ;
-        nif:anchorOf          "James Carville"^^xsd:string ;
+        nif:anchorOf          "James Carville"@en ;
         nif:beginIndex        "22"^^xsd:nonNegativeInteger ;
-        nif:endIndex          "36"^^xsd:nonNegativeInteger ;
-        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-2#char=0,192> ;
-        itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/James_Carville> .
-     
-<http://www.ontologydesignpatterns.org/data/oke-challenge/Political_adviser>
+        nif:endIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,191> ;
+        itsrdf:taIdentRef     oke:James_Carville .
+
+oke:Political_adviser
      a        dul:Role ;
      rdfs:label "political adviser"@en ;
      owl:sameAs dbpedia:Political_consulting .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-2#char=57,74>
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=57,73>
         a                     nif:RFC5147String , nif:String ;
-        nif:anchorOf          "political adviser"^^xsd:string ;
+        nif:anchorOf          "political adviser"@en ;
         nif:beginIndex        "57"^^xsd:nonNegativeInteger ;
-        nif:endIndex          "74"^^xsd:nonNegativeInteger ;
-        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-2#char=0,192> ;
-        itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/Political_adviser> .
-     
-<http://www.ontologydesignpatterns.org/data/oke-challenge/Bill_Clinton>
+        nif:endIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,191> ;
+        itsrdf:taIdentRef     oke:Political_adviser .
+
+oke:Bill_Clinton
      a        dul:Person ;
      rdfs:label "Bill Clinton"@en ;
      owl:sameAs dbpedia:Bill_Clinton .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-2#char=78,90>
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=78,89>
         a                     nif:RFC5147String , nif:String ;
-        nif:anchorOf          "Bill Clinton"^^xsd:string ;
+        nif:anchorOf          "Bill Clinton"@en ;
         nif:beginIndex        "78"^^xsd:nonNegativeInteger ;
-        nif:endIndex          "90"^^xsd:nonNegativeInteger ;
-        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-2#char=0,192> ;
-        itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/Bill_Clinton> .
-     
-<http://www.ontologydesignpatterns.org/data/oke-challenge/Donna_Brazile>
+        nif:endIndex          "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,191> ;
+        itsrdf:taIdentRef     oke:Bill_Clinton .
+
+oke:Donna_Brazile
      a        dul:Person ;
      rdfs:label "Donna Brazile"@en ;
      owl:sameAs dbpedia:Donna_Brazile . 
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-2#char=96,109>
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=96,108>
         a                     nif:RFC5147String , nif:String ;
-        nif:anchorOf          "Donna Brazile"^^xsd:string ;
+        nif:anchorOf          "Donna Brazile"@en ;
         nif:beginIndex        "96"^^xsd:nonNegativeInteger ;
-        nif:endIndex          "109"^^xsd:nonNegativeInteger ;
-        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-2#char=0,192> ;
-        itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/Donna_Brazile> .
-     
-<http://www.ontologydesignpatterns.org/data/oke-challenge/Campaign_manager>
+        nif:endIndex          "108"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,191> ;
+        itsrdf:taIdentRef     oke:Donna_Brazile .
+
+oke:Campaign_manager
      a        dul:Role ;
      rdfs:label "campaign manager"@en ;
      owl:sameAs dbpedia:Campaign_manager .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-2#char=115,131>
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=115,130>
         a                     nif:RFC5147String , nif:String ;
-        nif:anchorOf          "campaign manager"^^xsd:string ;
+        nif:anchorOf          "campaign manager"@en ;
         nif:beginIndex        "115"^^xsd:nonNegativeInteger ;
-        nif:endIndex          "131"^^xsd:nonNegativeInteger ;
-        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-2#char=0,192> ;
-        itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/Campaign_manager> .          
-     
-<http://www.ontologydesignpatterns.org/data/oke-challenge/Al_Gore>
+        nif:endIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,191> ;
+        itsrdf:taIdentRef     oke:Campaign_manager .
+
+oke:Al_Gore
      a        dul:Person ;
      rdfs:label "Al Gore"@en ;
-     dc:relation oke:184_191_Al_Gore ;
      owl:sameAs dbpedia:Al_Gore .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-2#char=184,191>
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=184,190>
         a                     nif:RFC5147String , nif:String ;
-        nif:anchorOf          "Al Gore"^^xsd:string ;
+        nif:anchorOf          "Al Gore"@en ;
         nif:beginIndex        "184"^^xsd:nonNegativeInteger ;
-        nif:endIndex          "191"^^xsd:nonNegativeInteger ;
-        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/sentence-2#char=0,192> ;
-        itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/Al_Gore> .    
+        nif:endIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,191> ;
+        itsrdf:taIdentRef     oke:Al_Gore .
