@@ -7,7 +7,7 @@ Each task will have a separate dataset. All sentences in the three datasets are 
 
 The **example data** used in the following description of tasks is available in folder [example_data](./example_data)
 
-**Training data**, will be available in folder [training_data](./training_data)
+A sample of the **Gold Standard data**, will be available in folder [GoldStandard_sampleData](./GoldStandard_sampleData)
 
 Participants must:
 
