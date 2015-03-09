@@ -149,3 +149,34 @@ oke:Al_Gore
         nif:endIndex          "191"^^xsd:nonNegativeInteger ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,191> ;
         itsrdf:taIdentRef     oke:Al_Gore .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-3#char=0,69>
+        a                     nif:String , nif:RFC5147String , nif:Context ;
+        nif:beginIndex        "0"^^xsd:int ;
+        nif:endIndex          "69"^^xsd:int ;
+        nif:isString          "The senator received a Bachelor of Laws from the Columbia University."@en .
+
+oke:Sentator_1  
+        a                     dul:Person , owl:Individual ;
+        rdfs:label            "senator"@en .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-3#char=4,11>
+        a                     nif:String , nif:RFC5147String ;
+        nif:anchorOf          "senator"@en ;
+        nif:beginIndex        "4"^^xsd:int ;
+        nif:endIndex          "11"^^xsd:int ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-3#char=0,69> ;
+        itsrdf:taIdentRef     oke:Sentator_1 .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-3#char=49,68>
+        a                     nif:String , nif:RFC5147String ;
+        nif:anchorOf          "Columbia University"@en ;
+        nif:beginIndex        "49"^^xsd:int ;
+        nif:endIndex          "68"^^xsd:int ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-3#char=0,69> ;
+        itsrdf:taIdentRef     oke:Columbia_University .
+
+oke:Columbia_University
+        a                     dul:Organization , owl:Individual ;
+        rdfs:label            "Columbia University"@en ;
+        owl:sameAs            dbpedia:Columbia_University .
