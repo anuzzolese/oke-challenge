@@ -10,15 +10,15 @@
 @prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=0,161>
-        a               nif:RFC5147String , nif:String , nif:Context ;
-        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
-        nif:endIndex    "161”^^xsd:nonNegativeInteger ;
-        nif:isString    "Florence May Harding studied at the National Art School in Sydney, and with Douglas Robert Dundas , but in effect had no formal training in either botany or art."@en .
+        a                     nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "161”^^xsd:nonNegativeInteger ;
+        nif:isString          "Florence May Harding studied at the National Art School in Sydney, and with Douglas Robert Dundas , but in effect had no formal training in either botany or art."@en .
 
 oke:Florence_May_Harding
-     a        dul:Person ;
-     rdfs:label "Florence May Harding"@en ;
-     owl:sameAs dbpedia:Florence_May_Harding .
+     a                        owl:Individual, dul:Person ;
+     rdfs:label               "Florence May Harding"@en ;
+     owl:sameAs               dbpedia:Florence_May_Harding .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=0,20>
         a                     nif:RFC5147String , nif:String ;
@@ -29,9 +29,9 @@ oke:Florence_May_Harding
         itsrdf:taIdentRef     oke:Florence_May_Harding .
 
 oke:National_Art_School
-     a        dul:Organization ;
-     rdfs:label "National Art School"@en ;
-     owl:sameAs dbpedia:National_Art_School .
+     a                        owl:Individual, dul:Organization ;
+     rdfs:label               "National Art School"@en ;
+     owl:sameAs               dbpedia:National_Art_School .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=36,55>
         a                     nif:RFC5147String , nif:String ;
@@ -42,9 +42,9 @@ oke:National_Art_School
         itsrdf:taIdentRef     oke:National_Art_School .
 
 oke:Sydney
-     a        d0:Location ;
-     rdfs:label "Sydney"@en ;
-     owl:sameAs dbpedia:Sydney .
+     a                        owl:Individual, d0:Location ;
+     rdfs:label               "Sydney"@en ;
+     owl:sameAs               dbpedia:Sydney .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=59,65>
         a                     nif:RFC5147String , nif:String ;
@@ -55,8 +55,8 @@ oke:Sydney
         itsrdf:taIdentRef     oke:Sydney .
 
 oke:Douglas_Robert_Dundas
-     a        dul:Person ;
-     rdfs:label "Douglas Robert Dundas"@en .
+     a                        owl:Individual, dul:Person ;
+     rdfs:label               "Douglas Robert Dundas"@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=76,97>
         a                     nif:RFC5147String , nif:String ;
@@ -67,15 +67,15 @@ oke:Douglas_Robert_Dundas
         itsrdf:taIdentRef     oke:Douglas_Robert_Dundas .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,192>
-        a               nif:RFC5147String , nif:String , nif:Context ;
-        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
-        nif:endIndex    "192”^^xsd:nonNegativeInteger ;
-        nif:isString    "Such notables include James Carville, who was the senior political adviser to Bill Clinton, and Donna Brazile, the campaign manager of the 2000 presidential campaign of Vice-President Al Gore."@en .
+        a                     nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "192”^^xsd:nonNegativeInteger ;
+        nif:isString          "Such notables include James Carville, who was the senior political adviser to Bill Clinton, and Donna Brazile, the campaign manager of the 2000 presidential campaign of Vice-President Al Gore."@en .
 
 oke:James_Carville
-     a        dul:Person ;
-     rdfs:label "James Carville"@en ;
-     owl:sameAs dbpedia:James_Carville .
+     a                        owl:Individual, dul:Person ;
+     rdfs:label               "James Carville"@en ;
+     owl:sameAs               dbpedia:James_Carville .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=22,36>
         a                     nif:RFC5147String , nif:String ;
@@ -86,9 +86,9 @@ oke:James_Carville
         itsrdf:taIdentRef     oke:James_Carville .
 
 oke:Political_adviser
-     a        dul:Role ;
-     rdfs:label "political adviser"@en ;
-     owl:sameAs dbpedia:Political_consulting .
+     a                        owl:Individual, dul:Role ;
+     rdfs:label               "political adviser"@en ;
+     owl:sameAs               dbpedia:Political_consulting .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=57,74>
         a                     nif:RFC5147String , nif:String ;
@@ -99,9 +99,9 @@ oke:Political_adviser
         itsrdf:taIdentRef     oke:Political_adviser .
 
 oke:Bill_Clinton
-     a        dul:Person ;
-     rdfs:label "Bill Clinton"@en ;
-     owl:sameAs dbpedia:Bill_Clinton .
+     a                        owl:Individual, dul:Person ;
+     rdfs:label               "Bill Clinton"@en ;
+     owl:sameAs               dbpedia:Bill_Clinton .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=78,90>
         a                     nif:RFC5147String , nif:String ;
@@ -112,9 +112,9 @@ oke:Bill_Clinton
         itsrdf:taIdentRef     oke:Bill_Clinton .
 
 oke:Donna_Brazile
-     a        dul:Person ;
-     rdfs:label "Donna Brazile"@en ;
-     owl:sameAs dbpedia:Donna_Brazile . 
+     a                        owl:Individual, dul:Person ;
+     rdfs:label               "Donna Brazile"@en ;
+     owl:sameAs               dbpedia:Donna_Brazile . 
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=96,109>
         a                     nif:RFC5147String , nif:String ;
@@ -125,9 +125,9 @@ oke:Donna_Brazile
         itsrdf:taIdentRef     oke:Donna_Brazile .
 
 oke:Campaign_manager
-     a        dul:Role ;
-     rdfs:label "campaign manager"@en ;
-     owl:sameAs dbpedia:Campaign_manager .
+     a                        owl:Individual, dul:Role ;
+     rdfs:label               "campaign manager"@en ;
+     owl:sameAs               dbpedia:Campaign_manager .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=115,131>
         a                     nif:RFC5147String , nif:String ;
@@ -138,9 +138,9 @@ oke:Campaign_manager
         itsrdf:taIdentRef     oke:Campaign_manager .
 
 oke:Al_Gore
-     a        dul:Person ;
-     rdfs:label "Al Gore"@en ;
-     owl:sameAs dbpedia:Al_Gore .
+     a                        owl:Individual, dul:Person ;
+     rdfs:label               "Al Gore"@en ;
+     owl:sameAs               dbpedia:Al_Gore .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=184,191>
         a                     nif:RFC5147String , nif:String ;
