@@ -30,13 +30,13 @@ oke:Florence_May_Harding
 
 oke:School_1
      a                        owl:Individual, dul:Organization ;
-     rdfs:label               “a school"@en .
+     rdfs:label               "a school"@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=34,40>
         a                     nif:RFC5147String , nif:String ;
-        nif:anchorOf          “school"@en ;
-        nif:beginIndex        "34”^^xsd:nonNegativeInteger ;
-        nif:endIndex          “40”^^xsd:nonNegativeInteger ;
+        nif:anchorOf          "school"@en ;
+        nif:beginIndex        "34"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "40"^^xsd:nonNegativeInteger ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=0,146> ;
         itsrdf:taIdentRef     oke:National_Art_School .
 
@@ -48,8 +48,8 @@ oke:Sydney
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=44,50>
         a                     nif:RFC5147String , nif:String ;
         nif:anchorOf          "Sydney"@en ;
-        nif:beginIndex        “44”^^xsd:nonNegativeInteger ;
-        nif:endIndex          "50”^^xsd:nonNegativeInteger ;
+        nif:beginIndex        "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "50"^^xsd:nonNegativeInteger ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=0,146> ;
         itsrdf:taIdentRef     oke:Sydney .
 
@@ -60,8 +60,8 @@ oke:Douglas_Robert_Dundas
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=61,82>
         a                     nif:RFC5147String , nif:String ;
         nif:anchorOf          "Douglas Robert Dundas"@en ;
-        nif:beginIndex        "61”^^xsd:nonNegativeInteger ;
-        nif:endIndex          “82”^^xsd:nonNegativeInteger ;
+        nif:beginIndex        "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "82"^^xsd:nonNegativeInteger ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=0,146> ;
         itsrdf:taIdentRef     oke:Douglas_Robert_Dundas .
 
