@@ -81,7 +81,7 @@ oke:James_Carville
         nif:anchorOf          "James Carville"@en ;
         nif:beginIndex        "22"^^xsd:nonNegativeInteger ;
         nif:endIndex          "36"^^xsd:nonNegativeInteger ;
-        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,191> ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,192> ;
         itsrdf:taIdentRef     oke:James_Carville .
 
 oke:Political_adviser
@@ -94,7 +94,7 @@ oke:Political_adviser
         nif:anchorOf          "political adviser"@en ;
         nif:beginIndex        "57"^^xsd:nonNegativeInteger ;
         nif:endIndex          "74"^^xsd:nonNegativeInteger ;
-        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,191> ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,192> ;
         itsrdf:taIdentRef     oke:Political_adviser .
 
 oke:Bill_Clinton
@@ -107,7 +107,7 @@ oke:Bill_Clinton
         nif:anchorOf          "Bill Clinton"@en ;
         nif:beginIndex        "78"^^xsd:nonNegativeInteger ;
         nif:endIndex          "90"^^xsd:nonNegativeInteger ;
-        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,191> ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,192> ;
         itsrdf:taIdentRef     oke:Bill_Clinton .
 
 oke:Donna_Brazile
@@ -120,7 +120,7 @@ oke:Donna_Brazile
         nif:anchorOf          "Donna Brazile"@en ;
         nif:beginIndex        "96"^^xsd:nonNegativeInteger ;
         nif:endIndex          "109"^^xsd:nonNegativeInteger ;
-        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,191> ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,192> ;
         itsrdf:taIdentRef     oke:Donna_Brazile .
 
 oke:Campaign_manager
@@ -133,7 +133,7 @@ oke:Campaign_manager
         nif:anchorOf          "campaign manager"@en ;
         nif:beginIndex        "115"^^xsd:nonNegativeInteger ;
         nif:endIndex          "131"^^xsd:nonNegativeInteger ;
-        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,191> ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,192> ;
         itsrdf:taIdentRef     oke:Campaign_manager .
 
 oke:Al_Gore
@@ -146,7 +146,7 @@ oke:Al_Gore
         nif:anchorOf          "Al Gore"@en ;
         nif:beginIndex        "184"^^xsd:nonNegativeInteger ;
         nif:endIndex          "191"^^xsd:nonNegativeInteger ;
-        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,191> ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-2#char=0,192> ;
         itsrdf:taIdentRef     oke:Al_Gore .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-3#char=0,69>
@@ -155,7 +155,7 @@ oke:Al_Gore
         nif:endIndex          "69"^^xsd:int ;
         nif:isString          "The senator received a Bachelor of Laws from the Columbia University."@en .
 
-oke:Sentator_1  
+oke:Senator_1  
         a                     dul:Person , owl:Individual ;
         rdfs:label            "senator"@en .
 
@@ -165,7 +165,7 @@ oke:Sentator_1
         nif:beginIndex        "4"^^xsd:int ;
         nif:endIndex          "11"^^xsd:int ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-3#char=0,69> ;
-        itsrdf:taIdentRef     oke:Sentator_1 .
+        itsrdf:taIdentRef     oke:Senator_1 .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-3#char=49,68>
         a                     nif:String , nif:RFC5147String ;
