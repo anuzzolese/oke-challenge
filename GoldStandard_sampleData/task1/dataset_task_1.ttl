@@ -126,12 +126,6 @@ oke:Southeastern_Louisiana_State_University
         nif:endIndex    "75"^^xsd:int ;
         nif:isString    "Alan N. Braverman is a native of Boston, Massachusetts, and received a B.A."@en .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-67#char=0,0>
-        a               nif:String , nif:RFC5147String , nif:Context ;
-        nif:beginIndex  "0"^^xsd:int ;
-        nif:endIndex    "0"^^xsd:int ;
-        nif:isString    ""@en .
-
 oke:American_poet  a  dul:Role , owl:Individual ;
         rdfs:label  "American"@en .
 
