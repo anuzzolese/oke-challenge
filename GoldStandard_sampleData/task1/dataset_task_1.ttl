@@ -2015,7 +2015,7 @@ oke:Devon  a        dul:Place , owl:Individual ;
         nif:beginIndex        "32"^^xsd:int ;
         nif:endIndex          "73"^^xsd:int ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-10#char=0,132> ;
-        itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/Loyola's_Universit_ in_Belgium,_Economics> .
+        itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/Loyola's_University_in_Belgium,_Economics> .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-13#char=37,47>
         a                     nif:String , nif:RFC5147String ;
@@ -2397,7 +2397,7 @@ oke:Captain_1  a    dul:Person , owl:Individual ;
         nif:endIndex    "206"^^xsd:int ;
         nif:isString    "After a move to Southern California in 1938, Rico Lebrun taught at the Chouinard Art Institute and then at the Disney Studios, working with animators on the figure of Bambi for the forthcoming feature film."@en .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/Loyola's_Universit_ in_Belgium,_Economics>
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/Loyola's_University_in_Belgium,_Economics>
         a           dul:Organization , owl:Individual ;
         rdfs:label  "Loyola's University in Belgium, Economics"@en ;
         owl:sameAs  dbpedia:Katholieke_Universiteit_Leuven .
