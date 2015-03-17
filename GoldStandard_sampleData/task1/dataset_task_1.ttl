@@ -924,7 +924,7 @@ oke:James_Earley  a  dul:Person , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-42#char=0,76> ;
         itsrdf:taIdentRef     oke:clergyman .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/resident playwright>
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/resident_playwright>
         a           dul:Role , owl:Individual ;
         rdfs:label  "resident playwright"@en ;
         owl:sameAs  dbpedia:Playwright .
@@ -2734,7 +2734,7 @@ oke:Gunter_Pauli  a  dul:Person , owl:Individual ;
         nif:beginIndex        "125"^^xsd:int ;
         nif:endIndex          "144"^^xsd:int ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-20#char=0,163> ;
-        itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/resident playwright> .
+        itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/resident_playwright> .
 
 oke:William_Pole  a  dul:Person , owl:Individual ;
         rdfs:label  "William Pole"@en ;
