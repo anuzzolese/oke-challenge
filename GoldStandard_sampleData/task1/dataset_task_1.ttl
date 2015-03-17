@@ -42,9 +42,13 @@
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-46#char=0,193> ;
         itsrdf:taIdentRef     oke:Cedar_Rapids .
 
+oke:Federal_Judge  a        dul:Role , owl:Individual ;
+        rdfs:label  "Judge"@en ;
+        owl:sameAs  dbpedia:United_States_federal_judge .
+
 oke:Judge  a        dul:Role , owl:Individual ;
         rdfs:label  "Judge"@en ;
-        owl:sameAs  dbpedia:United_States_federal_judge , dbpedia:Judge .
+        owl:sameAs dbpedia:Judge .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-48#char=0,14>
         a                     nif:String , nif:RFC5147String ;
@@ -118,7 +122,7 @@ oke:Southeastern_Louisiana_State_University
         nif:beginIndex        "106"^^xsd:int ;
         nif:endIndex          "111"^^xsd:int ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-30#char=0,140> ;
-        itsrdf:taIdentRef     oke:Judge .
+        itsrdf:taIdentRef     oke:Federal_Judge .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-3#char=0,75>
         a               nif:String , nif:RFC5147String , nif:Context ;
@@ -2605,6 +2609,10 @@ oke:president  a    dul:Role , dul:Person , owl:Individual ;
         rdfs:label  "president"@en ;
         owl:sameAs  dbpedia:President_of_the_United_States , <http://dbpedia.org/resource/Chancellor_(education)> .
 
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/president_(education)>  a    dul:Role , dul:Person , owl:Individual ;
+        rdfs:label  "president"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Chancellor_(education)> .
+
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-4#char=111,118>
         a                     nif:String , nif:RFC5147String ;
         nif:anchorOf          "captain"@en ;
@@ -3396,7 +3404,7 @@ oke:Cumming  a      dul:Person , owl:Individual ;
 
 oke:Nickerson  a    dul:Person , owl:Individual ;
         rdfs:label  "Nickerson"@en ;
-        owl:sameAs  dbpedia:Nickerson , dbpedia:Eugene_Nickerson .
+        owl:sameAs  dbpedia:Eugene_Nickerson .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-60#char=50,67>
         a                     nif:String , nif:RFC5147String ;
@@ -4022,7 +4030,7 @@ oke:Deputy_Solicitor_General
         nif:beginIndex        "109"^^xsd:int ;
         nif:endIndex          "118"^^xsd:int ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-23#char=0,262> ;
-        itsrdf:taIdentRef     oke:president .
+        itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/president_(education)> .
 
 oke:Street_1  a     dul:Place , owl:Individual ;
         rdfs:label  "street"@en .
