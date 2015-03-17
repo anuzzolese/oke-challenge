@@ -1394,8 +1394,8 @@ oke:club_promoter  a  dul:Role , owl:Individual ;
         rdfs:label  "club promoter"@en ;
         owl:sameAs  <http://dbpedia.org/resource/Promoter_(entertainment)> .
 
-oke:County_2  a     dul:Place , owl:Individual ;
-        rdfs:label  "county"@en .
+oke:Country_2  a     dul:Place , owl:Individual ;
+        rdfs:label  "country"@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-90#char=83,95>
         a                     nif:String , nif:RFC5147String ;
@@ -4392,7 +4392,7 @@ oke:Joel_Gilbert_1  a  dul:Person , owl:Individual ;
         nif:beginIndex        "48"^^xsd:int ;
         nif:endIndex          "55"^^xsd:int ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-95#char=0,121> ;
-        itsrdf:taIdentRef     oke:County_2 .
+        itsrdf:taIdentRef     oke:Country_2 .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-68#char=0,120>
         a               nif:String , nif:RFC5147String , nif:Context ;
