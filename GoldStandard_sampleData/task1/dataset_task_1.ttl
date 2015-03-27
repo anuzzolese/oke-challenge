@@ -1359,13 +1359,6 @@ oke:Governor  a     dul:Role , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-47#char=0,106> ;
         itsrdf:taIdentRef     oke:Chicago .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-11#char=91,108>
-        a                     nif:String , nif:RFC5147String ;
-        nif:anchorOf          "political science"@en ;
-        nif:beginIndex        "91"^^xsd:int ;
-        nif:endIndex          "108"^^xsd:int ;
-        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-11#char=0,173> ;
-        itsrdf:taIdentRef     oke:political_science .
 
 oke:Country_1  a    dul:Place , owl:Individual ;
         rdfs:label  "Country"@en .
@@ -2820,10 +2813,6 @@ oke:University_of_Pennsylvania
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-42#char=0,76> ;
         itsrdf:taIdentRef     oke:Henry_Herman_Meyer .
 
-oke:political_science
-        a           dul:Role , owl:Individual ;
-        rdfs:label  "political science"@en ;
-        owl:sameAs  dbpedia:Political_science .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-48#char=0,144>
         a               nif:String , nif:RFC5147String , nif:Context ;
