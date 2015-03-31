@@ -58,7 +58,7 @@ oke:Judge  a        dul:Role , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-48#char=0,144> ;
         itsrdf:taIdentRef     oke:Jerry_Fontaine .
 
-oke:Joanne_Woodward  a  dul:NaturalPerson , owl:Individual ;
+oke:Joanne_Woodward  a  dul:Person , owl:Individual ;
         rdfs:label  "Joanne Woodward"@en ;
         owl:sameAs  dbpedia:Joanne_Woodward .
 
@@ -209,7 +209,7 @@ oke:Des_Moines  a   dul:Place , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-6#char=0,113> ;
         itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/Noank,_Connecticut> .
 
-oke:Woman_1  a      dul:NaturalPerson , owl:Individual ;
+oke:Woman_1  a      dul:Person , owl:Individual ;
         rdfs:label  "a woman"@en ;
         owl:sameAs  dbpedia:Edward_C._Burks .
 
@@ -236,12 +236,12 @@ oke:Woman_1  a      dul:NaturalPerson , owl:Individual ;
         itsrdf:taIdentRef     oke:Rachel_Smith .
 
 oke:John_Quincy_Adams
-        a           dul:NaturalPerson , owl:Individual ;
+        a           dul:Person , owl:Individual ;
         rdfs:label  "John Quincy Adams"@en ;
         owl:sameAs  dbpedia:John_Quincy_Adams .
 
 oke:Robert_P._Anderson
-        a           dul:NaturalPerson , owl:Individual ;
+        a           dul:Person , owl:Individual ;
         rdfs:label  "Robert P. Anderson"@en ;
         owl:sameAs  dbpedia:Robert_P._Anderson .
 
@@ -294,7 +294,7 @@ oke:Robert_P._Anderson
         rdfs:label  "Christ Church, Oxford"@en ;
         owl:sameAs  <http://dbpedia.org/resource/Christ_Church,_Oxford> .
 
-oke:Michael_Colgrass  a  dul:NaturalPerson , owl:Individual ;
+oke:Michael_Colgrass  a  dul:Person , owl:Individual ;
         rdfs:label  "Michael Colgrass"@en ;
         owl:sameAs  dbpedia:Michael_Colgrass .
 
@@ -378,7 +378,7 @@ oke:Central_Academy_of_Fine_Arts
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-42#char=0,76> ;
         itsrdf:taIdentRef     oke:American .
 
-oke:Man_1  a        dul:NaturalPerson , owl:Individual ;
+oke:Man_1  a        dul:Person , owl:Individual ;
         rdfs:label  "a man"@en ;
         owl:sameAs  dbpedia:Rico_Lebrun .
 
@@ -454,7 +454,7 @@ oke:Pittsburgh_Penguins
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-37#char=0,192> ;
         itsrdf:taIdentRef     oke:Pittsburgh_Penguins .
 
-oke:Thomas_Merrill  a  dul:NaturalPerson , owl:Individual ;
+oke:Thomas_Merrill  a  dul:Person , owl:Individual ;
         rdfs:label  "Thomas Merrill"@en ;
         owl:sameAs  dbpedia:Thomas_Merrill .
 
@@ -515,7 +515,7 @@ oke:Thomas_Merrill  a  dul:NaturalPerson , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-96#char=0,83> ;
         itsrdf:taIdentRef     oke:University_1 .
 
-oke:Samuel_Clegg  a  dul:NaturalPerson , owl:Individual ;
+oke:Samuel_Clegg  a  dul:Person , owl:Individual ;
         rdfs:label  "Samuel Clegg"@en ;
         owl:sameAs  dbpedia:Samuel_Clegg .
 
@@ -572,7 +572,7 @@ oke:judge  a        dul:Role , owl:Individual ;
         nif:endIndex    "83"^^xsd:int ;
         nif:isString    "After college, the guy played professionally in Italy with Latemor for two seasons."@en .
 
-oke:Paul_Polillo  a  dul:NaturalPerson , owl:Individual ;
+oke:Paul_Polillo  a  dul:Person , owl:Individual ;
         rdfs:label  "Paul Polillo"@en ;
         owl:sameAs  dbpedia:Paul_Polillo .
 
@@ -592,7 +592,7 @@ oke:Paul_Polillo  a  dul:NaturalPerson , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-25#char=0,114> ;
         itsrdf:taIdentRef     oke:commissioner .
 
-oke:Notable  a      dul:NaturalPerson , owl:Individual ;
+oke:Notable  a      dul:Person , owl:Individual ;
         rdfs:label  "notables"@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-30#char=0,140>
@@ -607,7 +607,7 @@ oke:Notable  a      dul:NaturalPerson , owl:Individual ;
         nif:endIndex    "191"^^xsd:int ;
         nif:isString    "In 1986, Nirmalya Kumar completed his MBA at the University of Illinois at Chicago and in 1991, received his Ph.D. in Marketing at the Kellogg School of Management in Northwestern University."@en .
 
-oke:Hubert_Humphrey  a  dul:NaturalPerson , owl:Individual ;
+oke:Hubert_Humphrey  a  dul:Person , owl:Individual ;
         rdfs:label  "Hubert Humphrey"@en ;
         owl:sameAs  dbpedia:Hubert_Humphrey .
 
@@ -616,7 +616,7 @@ oke:Shivaji_University
         rdfs:label  "Shivaji University"@en ;
         owl:sameAs  dbpedia:Shivaji_University .
 
-oke:Richard_Taylor  a  dul:NaturalPerson , owl:Individual ;
+oke:Richard_Taylor  a  dul:Person , owl:Individual ;
         rdfs:label  "Richard Taylor"@en ;
         owl:sameAs  <http://dbpedia.org/resource/Richard_Taylor_(UK_politician)> .
 
@@ -626,7 +626,7 @@ oke:Richard_Taylor  a  dul:NaturalPerson , owl:Individual ;
         nif:endIndex    "78"^^xsd:int ;
         nif:isString    "Wayne Koestenbaum received a Bachelor of arts from Harvard University, an M.A."@en .
 
-oke:Yuri_Moiseev  a  dul:NaturalPerson , owl:Individual ;
+oke:Yuri_Moiseev  a  dul:Person , owl:Individual ;
         rdfs:label  "Yuri Moiseev"@en ;
         owl:sameAs  dbpedia:Yuri_Moiseev .
 
@@ -639,7 +639,7 @@ oke:Yuri_Moiseev  a  dul:NaturalPerson , owl:Individual ;
         itsrdf:taIdentRef     oke:Chattanooga_State_Technical_Community_College .
 
 oke:Wayne_Koestenbaum
-        a           dul:NaturalPerson , owl:Individual ;
+        a           dul:Person , owl:Individual ;
         rdfs:label  "Wayne Koestenbaum"@en ;
         owl:sameAs  dbpedia:Wayne_Koestenbaum .
 
@@ -687,7 +687,7 @@ oke:University_of_California-Berkeley
         owl:sameAs  <http://dbpedia.org/resource/University_of_California,_Berkeley> .
 
 oke:Henry_Herman_Meyer
-        a           dul:NaturalPerson , owl:Individual ;
+        a           dul:Person , owl:Individual ;
         rdfs:label  "Henry Herman Meyer"@en ;
         owl:sameAs  dbpedia:Henry_Herman_Meyer .
 
@@ -728,7 +728,7 @@ oke:musician  a     dul:Role , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-36#char=0,160> ;
         itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/Madison,_Wisconsin> .
 
-oke:Bill_Clinton  a  dul:NaturalPerson , owl:Individual ;
+oke:Bill_Clinton  a  dul:Person , owl:Individual ;
         rdfs:label  "Bill Clinton"@en ;
         owl:sameAs  dbpedia:Bill_Clinton .
 
@@ -763,7 +763,7 @@ oke:assistant_professor
         nif:endIndex    "153"^^xsd:int ;
         nif:isString    "Thomas Pole was born on 13 October 1753 in Philadelphia, the youngest son of John Pole , a native of Wiveliscombe, Somerset, who emigrated to New Jersey."@en .
 
-oke:Grinnell_College  a  dul:NaturalPerson , owl:Individual ;
+oke:Grinnell_College  a  dul:Person , owl:Individual ;
         rdfs:label  "Grinnell College"@en ;
         owl:sameAs  dbpedia:Grinnell_College .
 
@@ -787,11 +787,11 @@ oke:Seattle  a      dul:Place , owl:Individual ;
         rdfs:label  "Seattle"@en ;
         owl:sameAs  dbpedia:Seattle .
 
-oke:Thomas_Pole  a  dul:NaturalPerson , owl:Individual ;
+oke:Thomas_Pole  a  dul:Person , owl:Individual ;
         rdfs:label  "Thomas Pole"@en ;
         owl:sameAs  dbpedia:Thomas_Pole .
 
-oke:Walter_Erle  a  dul:NaturalPerson , owl:Individual ;
+oke:Walter_Erle  a  dul:Person , owl:Individual ;
         rdfs:label  "Walter Erle"@en ;
         owl:sameAs  dbpedia:Walter_Erle .
 
@@ -820,7 +820,7 @@ oke:Northwestern_University
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-79#char=0,113> ;
         itsrdf:taIdentRef     oke:Paul_Polillo .
 
-oke:Joel_Gilbert  a  dul:NaturalPerson , owl:Individual ;
+oke:Joel_Gilbert  a  dul:Person , owl:Individual ;
         rdfs:label  "Joel Gilbert"@en ;
         owl:sameAs  dbpedia:Joel_Gilbert .
 
@@ -830,7 +830,7 @@ oke:Joel_Gilbert  a  dul:NaturalPerson , owl:Individual ;
         nif:endIndex    "127"^^xsd:int ;
         nif:isString    "Yvonne Jacquette taught at Moore College of Art, and was a visiting artist at the University of Pennsylvania from 1972 to 1976."@en .
 
-oke:Jewish  a       dul:NaturalPerson , owl:Individual ;
+oke:Jewish  a       dul:Person , owl:Individual ;
         rdfs:label  "Jewish"@en ;
         owl:sameAs  dbpedia:Jews .
 
@@ -845,7 +845,7 @@ oke:Chung-Ang_University_Graduate_School_of_Arts
         rdfs:label  "Chung-Ang University Graduate School of Arts"@en ;
         owl:sameAs  dbpedia:Chung-Ang_University .
 
-oke:Andrea_Pole  a  dul:NaturalPerson , owl:Individual ;
+oke:Andrea_Pole  a  dul:Person , owl:Individual ;
         rdfs:label  "Thomas Pole"@en ;
         owl:sameAs  dbpedia:Thomas_Pole .
 
@@ -913,11 +913,11 @@ oke:fashion_illustrator
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-88#char=0,206> ;
         itsrdf:taIdentRef     oke:headmaster .
 
-oke:Cleopatra_Mathis  a  dul:NaturalPerson , owl:Individual ;
+oke:Cleopatra_Mathis  a  dul:Person , owl:Individual ;
         rdfs:label  "Cleopatra Mathis"@en ;
         owl:sameAs  dbpedia:Cleopatra_Mathis .
 
-oke:James_Earley  a  dul:NaturalPerson , owl:Individual ;
+oke:James_Earley  a  dul:Person , owl:Individual ;
         rdfs:label  "James Earley"@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-42#char=55,64>
@@ -963,7 +963,7 @@ oke:James_Earley  a  dul:NaturalPerson , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-45#char=0,94> ;
         itsrdf:taIdentRef     oke:University .
 
-oke:Frank_Azell  a  dul:NaturalPerson , owl:Individual ;
+oke:Frank_Azell  a  dul:Person , owl:Individual ;
         rdfs:label  "Frank Azell"@en .
 
 oke:School_of_Art_at_the_University_of_Iowa
@@ -1111,7 +1111,7 @@ oke:Detroit  a      dul:Place , owl:Individual ;
         nif:endIndex    "73"^^xsd:int ;
         nif:isString    "Frank Azell spent great part of his life working in a company of Detroit."@en .
 
-oke:John_Speed  a   dul:NaturalPerson , owl:Individual ;
+oke:John_Speed  a   dul:Person , owl:Individual ;
         rdfs:label  "John Speed"@en ;
         owl:sameAs  dbpedia:John_Speed .
 
@@ -1120,7 +1120,7 @@ oke:ward  a         dul:Place , owl:Individual ;
         owl:sameAs  <http://dbpedia.org/resource/Ward_(country_subdivision)> .
 
 oke:Florence_May_Harding
-        a           dul:NaturalPerson , owl:Individual ;
+        a           dul:Person , owl:Individual ;
         rdfs:label  "Florence May Harding"@en ;
         owl:sameAs  dbpedia:Florence_May_Harding .
 
@@ -1137,7 +1137,7 @@ oke:Florence_May_Harding
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-31#char=0,153> ;
         itsrdf:taIdentRef     oke:Wiveliscombe .
 
-oke:Lee_Allen_1  a  dul:NaturalPerson , owl:Individual ;
+oke:Lee_Allen_1  a  dul:Person , owl:Individual ;
         rdfs:label  "Lee Allen"@en ;
         owl:sameAs  <http://dbpedia.org/resource/Lee_Allen_(musician)> .
 
@@ -1197,7 +1197,7 @@ oke:headmaster  a   dul:Role , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-50#char=0,113> ;
         itsrdf:taIdentRef     oke:Irish .
 
-oke:Man_3  a        dul:NaturalPerson , owl:Individual ;
+oke:Man_3  a        dul:Person , owl:Individual ;
         rdfs:label  "man"@en .
 
 oke:University_of_Virginia_School_of_Law
@@ -1218,7 +1218,7 @@ oke:University_of_Virginia_School_of_Law
         rdfs:label  "Muscatine, Iowa"@en ;
         owl:sameAs  <http://dbpedia.org/resource/Muscatine,_Iowa> .
 
-oke:Yvonne_Jacquette  a  dul:NaturalPerson , owl:Individual ;
+oke:Yvonne_Jacquette  a  dul:Person , owl:Individual ;
         rdfs:label  "Yvonne Jacquette"@en ;
         owl:sameAs  dbpedia:Yvonne_Jacquette .
 
@@ -1321,7 +1321,7 @@ oke:Italy  a        dul:Organization , owl:Individual ;
         nif:endIndex    "174"^^xsd:int ;
         nif:isString    "In 1775 Andrea Pole visited relatives, and, with the object of attending Friends' meetings, travelled widely through the country, mainly on horseback, for two or three years."@en .
 
-oke:Candidate_1  a  dul:NaturalPerson , owl:Individual ;
+oke:Candidate_1  a  dul:Person , owl:Individual ;
         rdfs:label  "Candidate"@en ;
         owl:sameAs  dbpedia:Joe_Ellis .
 
@@ -1427,7 +1427,7 @@ oke:Country_2  a     dul:Place , owl:Individual ;
         rdfs:label  "Madison, Wisconsin"@en ;
         owl:sameAs  <http://dbpedia.org/resource/Madison,_Wisconsin> .
 
-oke:David_Campbell  a  dul:NaturalPerson , owl:Individual ;
+oke:David_Campbell  a  dul:Person , owl:Individual ;
         rdfs:label  "David Campbell"@en ;
         owl:sameAs  <http://dbpedia.org/resource/David_Campbell_(poet)> .
 
@@ -1439,7 +1439,7 @@ oke:David_Campbell  a  dul:NaturalPerson , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-11#char=0,173> ;
         itsrdf:taIdentRef     oke:Vice_President_of_the_United_States .
 
-oke:Nirmalya_Kumar  a  dul:NaturalPerson , owl:Individual ;
+oke:Nirmalya_Kumar  a  dul:Person , owl:Individual ;
         rdfs:label  "Nirmalya Kumar"@en ;
         owl:sameAs  dbpedia:Nirmalya_Kumar .
 
@@ -1626,7 +1626,7 @@ oke:Chungju_National_University
         itsrdf:taIdentRef     oke:Mary_McCarthy .
 
 oke:Ronald_Theodore_Reuther
-        a           dul:NaturalPerson , owl:Individual ;
+        a           dul:Person , owl:Individual ;
         rdfs:label  "Ronald Theodore Reuther"@en ;
         owl:sameAs  dbpedia:Ronald_Theodore_Reuther .
 
@@ -1724,7 +1724,7 @@ oke:Legislative_Assembly_of_Manitoba
         rdfs:label  "Legislative Assembly of Manitoba"@en ;
         owl:sameAs  dbpedia:Legislative_Assembly_of_Manitoba .
 
-oke:James_Carville  a  dul:NaturalPerson , owl:Individual ;
+oke:James_Carville  a  dul:Person , owl:Individual ;
         rdfs:label  "James Carville"@en ;
         owl:sameAs  dbpedia:James_Carville .
 
@@ -1847,7 +1847,7 @@ oke:Connecticut_State_Senate
         nif:endIndex    "145"^^xsd:int ;
         nif:isString    "A native of Auburn, New York, received his Bachelor of fine arts from Central Academy of Fine Arts in 2009, becoming its first American graduate."@en .
 
-oke:Sentator_1  a   dul:NaturalPerson , owl:Individual ;
+oke:Sentator_1  a   dul:Person , owl:Individual ;
         rdfs:label  "senator"@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-25#char=0,114>
@@ -2150,7 +2150,7 @@ oke:actress  a      dul:Role , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-73#char=0,192> ;
         itsrdf:taIdentRef     oke:Notable .
 
-oke:cultural_critic  a  dul:NaturalPerson , owl:Individual ;
+oke:cultural_critic  a  dul:Person , owl:Individual ;
         rdfs:label  "cultural critic"@en ;
         owl:sameAs  dbpedia:Cultural_critic .
 
@@ -2186,11 +2186,11 @@ oke:council  a      dul:Organization , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-91#char=0,88> ;
         itsrdf:taIdentRef     oke:Sheriff_1 .
 
-oke:graduate  a     dul:NaturalPerson , owl:Individual ;
+oke:graduate  a     dul:Person , owl:Individual ;
         rdfs:label  "graduate"@en ;
         owl:sameAs  dbpedia:Postgraduate_education .
 
-oke:Person_2  a     dul:NaturalPerson , owl:Individual ;
+oke:Person_2  a     dul:Person , owl:Individual ;
         rdfs:label  "a person"@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-38#char=15,18>
@@ -2271,7 +2271,7 @@ oke:Person_2  a     dul:NaturalPerson , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-84#char=0,162> ;
         itsrdf:taIdentRef     oke:University_of_California-Berkeley .
 
-oke:Eugene_Nickerson  a  dul:NaturalPerson , owl:Individual ;
+oke:Eugene_Nickerson  a  dul:Person , owl:Individual ;
         rdfs:label  "Eugene Nickerson"@en ;
         owl:sameAs  dbpedia:Eugene_Nickerson .
 
@@ -2299,7 +2299,7 @@ oke:Eugene_Nickerson  a  dul:NaturalPerson , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-82#char=0,191> ;
         itsrdf:taIdentRef     oke:University_of_Illinois_at_Chicago .
 
-oke:Guy_1  a        dul:NaturalPerson , owl:Individual ;
+oke:Guy_1  a        dul:Person , owl:Individual ;
         rdfs:label  "Guy"@en ;
         owl:sameAs  dbpedia:Paul_Polillo .
 
@@ -2377,7 +2377,7 @@ oke:Charborough  a  dul:Place , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-35#char=0,134> ;
         itsrdf:taIdentRef     oke:private_secretary .
 
-oke:Captain_1  a    dul:NaturalPerson , owl:Individual ;
+oke:Captain_1  a    dul:Person , owl:Individual ;
         rdfs:label  "captain"@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-20#char=33,43>
@@ -2399,7 +2399,7 @@ oke:Captain_1  a    dul:NaturalPerson , owl:Individual ;
         rdfs:label  "Loyola's University in Belgium, Economics"@en ;
         owl:sameAs  dbpedia:Katholieke_Universiteit_Leuven .
 
-oke:John_Stigall  a  dul:NaturalPerson , owl:Individual ;
+oke:John_Stigall  a  dul:Person , owl:Individual ;
         rdfs:label  "John Stigall"@en ;
         owl:sameAs  dbpedia:John_Stigall .
 
@@ -2445,7 +2445,7 @@ oke:campaign_manager  a  dul:Role , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-54#char=0,55> ;
         itsrdf:taIdentRef     oke:Joshua_Fry_Speed .
 
-oke:Mary_McCarthy  a  dul:NaturalPerson , owl:Individual ;
+oke:Mary_McCarthy  a  dul:Person , owl:Individual ;
         rdfs:label  "Mary McCarthy"@en ;
         owl:sameAs  <http://dbpedia.org/resource/Mary_McCarthy_(author)> .
 
@@ -2534,7 +2534,7 @@ oke:Louisiana_State_University_System
         a                     nif:String , nif:RFC5147String ;
         nif:anchorOf          "native of Auburn, New Yor"@en ;
         nif:beginIndex        "2"^^xsd:int ;
-        nif:endIndex          "27"^^xsd:int ;
+        nif:endIndex          "28”^^xsd:int ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-15#char=0,145> ;
         itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/Native_of_Auburn,_New_York_1> .
 
@@ -2646,7 +2646,7 @@ oke:educator  a     dul:Role , owl:Individual ;
         itsrdf:taIdentRef     oke:Lee_Seung_Hyo .
 
 oke:Alan_N._Braverman
-        a           dul:NaturalPerson , owl:Individual ;
+        a           dul:Person , owl:Individual ;
         rdfs:label  "Alan N. Braverman"@en ;
         owl:sameAs  dbpedia:Alan_N._Braverman .
 
@@ -2725,7 +2725,7 @@ oke:Coles_Bashford  a  dul:Role , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-46#char=0,193> ;
         itsrdf:taIdentRef     oke:Iowa_District_Court .
 
-oke:Gunter_Pauli  a  dul:NaturalPerson , owl:Individual ;
+oke:Gunter_Pauli  a  dul:Person , owl:Individual ;
         rdfs:label  "Gunter Pauli"@en ;
         owl:sameAs  dbpedia:Gunter_Pauli .
 
@@ -2737,7 +2737,7 @@ oke:Gunter_Pauli  a  dul:NaturalPerson , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-20#char=0,163> ;
         itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/resident_playwright> .
 
-oke:William_Pole  a  dul:NaturalPerson , owl:Individual ;
+oke:William_Pole  a  dul:Person , owl:Individual ;
         rdfs:label  "William Pole"@en ;
         owl:sameAs  <http://dbpedia.org/resource/William_Pole_(antiquary)> .
 
@@ -2869,7 +2869,7 @@ oke:professor  a    dul:Role , owl:Individual ;
         nif:endIndex    "125"^^xsd:int ;
         nif:isString    "Benjamin F. Hopkins was a member of the Wisconsin Senate in 1862 and 1863 and served in the Wisconsin State Assembly in 1866."@en .
 
-oke:Thomas_Erle  a  dul:NaturalPerson , owl:Individual ;
+oke:Thomas_Erle  a  dul:Person , owl:Individual ;
         rdfs:label  "Thomas Erle"@en ;
         owl:sameAs  dbpedia:Thomas_Erle .
 
@@ -2942,7 +2942,7 @@ oke:New_London_County
         owl:sameAs  <http://dbpedia.org/resource/New_London_County,_Connecticut> .
 
 oke:Benjamin_F._Hopkins
-        a           dul:NaturalPerson , owl:Individual ;
+        a           dul:Person , owl:Individual ;
         rdfs:label  "Benjamin F. Hopkins"@en ;
         owl:sameAs  dbpedia:Benjamin_F._Hopkins .
 
@@ -2960,7 +2960,7 @@ oke:Harvard_University
         owl:sameAs  dbpedia:Harvard_University .
 
 oke:Vice_President_of_the_United_States
-        a           dul:NaturalPerson , owl:Individual ;
+        a           dul:Person , owl:Individual ;
         rdfs:label  "Vice President of the United States"@en ;
         owl:sameAs  dbpedia:Vice_President_of_the_United_States .
 
@@ -3000,19 +3000,19 @@ oke:Villanova  a    dul:Organization , owl:Individual ;
         rdfs:label  "Villanova"@en ;
         owl:sameAs  dbpedia:Villanova_University .
 
-oke:Rico_Lebrun  a  dul:NaturalPerson , owl:Individual ;
+oke:Rico_Lebrun  a  dul:Person , owl:Individual ;
         rdfs:label  "Rico Lebrun"@en ;
         owl:sameAs  dbpedia:Rico_Lebrun .
 
-oke:Irish  a        dul:NaturalPerson , owl:Individual ;
+oke:Irish  a        dul:Person , owl:Individual ;
         rdfs:label  "Irish"@en ;
         owl:sameAs  dbpedia:Irish_people .
 
-oke:Stephen_Zepeda  a  dul:NaturalPerson , owl:Individual ;
+oke:Stephen_Zepeda  a  dul:Person , owl:Individual ;
         rdfs:label  "Stephen Zepeda"@en ;
         owl:sameAs  dbpedia:Stephen_Zepeda .
 
-oke:Man_2  a        dul:NaturalPerson , owl:Individual ;
+oke:Man_2  a        dul:Person , owl:Individual ;
         rdfs:label  "man"@en .
 
 oke:Burlington  a   dul:Place , owl:Individual ;
@@ -3025,7 +3025,7 @@ oke:State_University_of_New_York_at_Cortland
         owl:sameAs  dbpedia:State_University_of_New_York_at_Cortland .
 
 oke:Joseph_L._Townsend
-        a           dul:NaturalPerson , owl:Individual ;
+        a           dul:Person , owl:Individual ;
         rdfs:label  "Joseph L. Townsend"@en ;
         owl:sameAs  dbpedia:Joseph_L._Townsend .
 
@@ -3151,7 +3151,7 @@ oke:Portugal  a     dul:Place , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-88#char=0,206> ;
         itsrdf:taIdentRef     oke:David_Campbell .
 
-oke:Lee_Allen  a    dul:NaturalPerson , owl:Individual ;
+oke:Lee_Allen  a    dul:Person , owl:Individual ;
         rdfs:label  "Lee Allen"@en ;
         owl:sameAs  <http://dbpedia.org/resource/Lee_Allen_(musician)> .
 
@@ -3303,12 +3303,12 @@ oke:County_1  a     dul:Place , owl:Individual ;
         nif:endIndex    "44"^^xsd:int ;
         nif:isString    "Lateefah Simon graduated from Mills College."@en .
 
-oke:Donna_Brazile  a  dul:NaturalPerson , owl:Individual ;
+oke:Donna_Brazile  a  dul:Person , owl:Individual ;
         rdfs:label  "Donna Brazile"@en ;
         owl:sameAs  dbpedia:Donna_Brazile .
 
 oke:Methodist_Episcopal
-        a           dul:NaturalPerson , owl:Individual ;
+        a           dul:Person , owl:Individual ;
         rdfs:label  "Methodist Episcopal"@en ;
         owl:sameAs  dbpedia:Methodist_Episcopal_Church .
 
@@ -3328,7 +3328,7 @@ oke:Methodist_Episcopal
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-75#char=0,194> ;
         itsrdf:taIdentRef     oke:Communist_Party .
 
-oke:Jack_Conroy  a  dul:NaturalPerson , owl:Individual ;
+oke:Jack_Conroy  a  dul:Person , owl:Individual ;
         rdfs:label  "Jack Conroy"@en ;
         owl:sameAs  dbpedia:Jack_Conroy .
 
@@ -3362,10 +3362,10 @@ oke:Republican  a   dul:Organization , owl:Individual ;
         rdfs:label  "Republican"@en ;
         owl:sameAs  <http://dbpedia.org/resource/Republican_Party_(United_States)> .
 
-oke:John_Pole  a    dul:NaturalPerson , owl:Individual ;
+oke:John_Pole  a    dul:Person , owl:Individual ;
         rdfs:label  "John Pole"@en .
 
-oke:Al_Gore  a      dul:NaturalPerson , owl:Individual ;
+oke:Al_Gore  a      dul:Person , owl:Individual ;
         rdfs:label  "Al Gore"@en ;
         owl:sameAs  dbpedia:Al_Gore .
 
@@ -3373,7 +3373,7 @@ oke:Pittsburgh  a   dul:Organization , owl:Individual ;
         rdfs:label  "Pittsburgh"@en ;
         owl:sameAs  dbpedia:University_of_Pittsburgh .
 
-oke:Cumming  a      dul:NaturalPerson , owl:Individual ;
+oke:Cumming  a      dul:Person , owl:Individual ;
         rdfs:label  "Cumming"@en ;
         owl:sameAs  dbpedia:Charles_Atherton_Cumming .
 
@@ -3391,7 +3391,7 @@ oke:Cumming  a      dul:NaturalPerson , owl:Individual ;
         nif:endIndex    "180"^^xsd:int ;
         nif:isString    "After attaining both degrees, John Stigall returned to Chattanooga and became Associate Professor of English and poet-in-residence at Chattanooga State Technical Community College."@en .
 
-oke:Nickerson  a    dul:NaturalPerson , owl:Individual ;
+oke:Nickerson  a    dul:Person , owl:Individual ;
         rdfs:label  "Nickerson"@en ;
         owl:sameAs  dbpedia:Eugene_Nickerson .
 
@@ -3434,12 +3434,12 @@ oke:United_States  a  dul:Place , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-69#char=0,79> ;
         itsrdf:taIdentRef     oke:musician .
 
-oke:Lee_Seung_Hyo  a  dul:NaturalPerson , owl:Individual ;
+oke:Lee_Seung_Hyo  a  dul:Person , owl:Individual ;
         rdfs:label  "Lee Seung Hyo"@en ;
         owl:sameAs  dbpedia:Lee_Seung-hyo .
 
 oke:Harold_Duane_Vietor
-        a           dul:NaturalPerson , owl:Individual ;
+        a           dul:Person , owl:Individual ;
         rdfs:label  "Harold Duane Vietor"@en ;
         owl:sameAs  dbpedia:Harold_Duane_Vietor .
 
@@ -3451,7 +3451,7 @@ oke:Harold_Duane_Vietor
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-8#char=0,125> ;
         itsrdf:taIdentRef     oke:Pittsburgh .
 
-oke:Paul  a         dul:NaturalPerson , owl:Individual ;
+oke:Paul  a         dul:Person , owl:Individual ;
         rdfs:label  "Paul"@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-72#char=0,84>
@@ -3472,7 +3472,7 @@ oke:Company_1  a    dul:Organization , owl:Individual ;
         itsrdf:taIdentRef     oke:United_States_Senator .
 
 oke:Douglas_Robert_Dundas
-        a           dul:NaturalPerson , owl:Individual ;
+        a           dul:Person , owl:Individual ;
         rdfs:label  "Douglas Robert Dundas"@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-45#char=8,24>
@@ -3491,7 +3491,7 @@ oke:Douglas_Robert_Dundas
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-35#char=0,134> ;
         itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/Madison,_Wisconsin> .
 
-oke:Chris_Corrigan  a  dul:NaturalPerson , owl:Individual ;
+oke:Chris_Corrigan  a  dul:Person , owl:Individual ;
         rdfs:label  "Chris Corrigan"@en ;
         owl:sameAs  dbpedia:Chris_Corrigan .
 
@@ -3561,11 +3561,11 @@ oke:Cape_Cod  a     dul:Place , owl:Individual ;
         nif:endIndex    "95"^^xsd:int ;
         nif:isString    "Born in Parkersburg, Iowa, Harold Duane Vietor was in the United States Navy from 1952 to 1954."@en .
 
-oke:American  a     dul:NaturalPerson , owl:Individual ;
+oke:American  a     dul:Person , owl:Individual ;
         rdfs:label  "American"@en ;
         owl:sameAs  dbpedia:Americans .
 
-oke:poet  a         dul:NaturalPerson , owl:Individual ;
+oke:poet  a         dul:Person , owl:Individual ;
         rdfs:label  "poet"@en ;
         owl:sameAs  dbpedia:Poet .
 
@@ -3603,7 +3603,7 @@ oke:Yale_Law_School  a  dul:Organization , owl:Individual ;
         itsrdf:taIdentRef     oke:artist .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/Native_of_Auburn,_New_York_1>
-        a           dul:NaturalPerson , owl:Individual ;
+        a           dul:Person , owl:Individual ;
         rdfs:label  "a native of Auburn, New York"@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/Safari_Sam's>
@@ -3619,11 +3619,11 @@ oke:Yale_Law_School  a  dul:Organization , owl:Individual ;
         itsrdf:taIdentRef     oke:Stephen_Zepeda .
 
 oke:poet-in-residence
-        a           dul:NaturalPerson , owl:Individual ;
+        a           dul:Person , owl:Individual ;
         rdfs:label  "poet-in-residence"@en ;
         owl:sameAs  dbpedia:Poet .
 
-oke:Randy_Moffett  a  dul:NaturalPerson , owl:Individual ;
+oke:Randy_Moffett  a  dul:Person , owl:Individual ;
         rdfs:label  "Randy Moffett"@en ;
         owl:sameAs  dbpedia:Randy_Moffett .
 
@@ -3737,7 +3737,7 @@ oke:Hon  a          dul:Organization , owl:Individual ;
         itsrdf:taIdentRef     oke:Thomas_Merrill .
 
 oke:Michael_Hollinger
-        a           dul:NaturalPerson , owl:Individual ;
+        a           dul:Person , owl:Individual ;
         rdfs:label  "Michael Hollinger"@en ;
         owl:sameAs  dbpedia:Michael_Hollinger .
 
@@ -3766,9 +3766,9 @@ oke:Michael_Hollinger
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/St._Mark's_School>
         a           dul:Organization , owl:Individual ;
         rdfs:label  "St. Mark's School"@en ;
-        owl:sameAs  dbpedia: .
+        owl:sameAs  dbpedia:St._Mark's_School_(Massachusetts) .
 
-oke:David_L._Bazelon  a  dul:NaturalPerson , owl:Individual ;
+oke:David_L._Bazelon  a  dul:Person , owl:Individual ;
         rdfs:label  "David L. Bazelon"@en ;
         owl:sameAs  dbpedia:David_L._Bazelon .
 
@@ -3792,7 +3792,7 @@ oke:Southampton  a  dul:Place , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-81#char=0,188> ;
         itsrdf:taIdentRef     oke:Chris_Corrigan .
 
-oke:Man_4  a        dul:NaturalPerson , owl:Individual ;
+oke:Man_4  a        dul:Person , owl:Individual ;
         rdfs:label  "man"@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-64#char=33,37>
@@ -3811,15 +3811,15 @@ oke:Man_4  a        dul:NaturalPerson , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-23#char=0,262> ;
         itsrdf:taIdentRef     oke:Louisiana_State_University .
 
-oke:Rachel_Smith  a  dul:NaturalPerson , owl:Individual ;
+oke:Rachel_Smith  a  dul:Person , owl:Individual ;
         rdfs:label  "Rachel Smith"@en ;
         owl:sameAs  dbpedia:Rachel_Smith .
 
-oke:Jerry_Fontaine  a  dul:NaturalPerson , owl:Individual ;
+oke:Jerry_Fontaine  a  dul:Person , owl:Individual ;
         rdfs:label  "Jerry Fontaine"@en ;
         owl:sameAs  dbpedia:Jerry_Fontaine .
 
-oke:W._J._E._Bennett  a  dul:NaturalPerson , owl:Individual ;
+oke:W._J._E._Bennett  a  dul:Person , owl:Individual ;
         rdfs:label  "W. J. E. Bennett"@en ;
         owl:sameAs  dbpedia:W._J._E._Bennett .
 
@@ -3877,7 +3877,7 @@ oke:National_Art_School
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-39#char=0,117> ;
         itsrdf:taIdentRef     oke:Farringdon_Without .
 
-oke:Roosevelt  a    dul:NaturalPerson , owl:Individual ;
+oke:Roosevelt  a    dul:Person , owl:Individual ;
         rdfs:label  "Roosevelt"@en ;
         owl:sameAs  dbpedia:Franklin_D._Roosevelt .
 
@@ -3955,7 +3955,7 @@ oke:Parsons_School_of_Design
         rdfs:label  "Parsons School of Design"@en ;
         owl:sameAs  dbpedia:Parsons_The_New_School_for_Design .
 
-oke:Sheriff_1  a    dul:NaturalPerson , owl:Individual ;
+oke:Sheriff_1  a    dul:Person , owl:Individual ;
         rdfs:label  "sheriff"@en ;
         owl:sameAs  dbpedia:Sheriff .
 
@@ -3992,7 +3992,7 @@ oke:Oxford_University
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-27#char=0,119> ;
         itsrdf:taIdentRef     oke:Roosevelt .
 
-oke:Lateefah_Simon  a  dul:NaturalPerson , owl:Individual ;
+oke:Lateefah_Simon  a  dul:Person , owl:Individual ;
         rdfs:label  "Lateefah Simon"@en ;
         owl:sameAs  dbpedia:Lateefah_Simon .
 
@@ -4116,7 +4116,7 @@ oke:Dorset  a       dul:Place , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-22#char=0,78> ;
         itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/Hollywood,_California> .
 
-oke:Person_1  a     dul:NaturalPerson , owl:Individual ;
+oke:Person_1  a     dul:Person , owl:Individual ;
         rdfs:label  "a person"@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-35#char=93,101>
@@ -4151,7 +4151,7 @@ oke:quarterback  a  dul:Role , owl:Individual ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-85#char=0,220> ;
         itsrdf:taIdentRef     oke:Ottawa-Carleton .
 
-oke:Hassan_Husseini  a  dul:NaturalPerson , owl:Individual ;
+oke:Hassan_Husseini  a  dul:Person , owl:Individual ;
         rdfs:label  "Hassan Husseini"@en ;
         owl:sameAs  dbpedia:Hassan_Husseini .
 
@@ -4363,7 +4363,7 @@ oke:President  a    dul:Role , owl:Individual ;
         rdfs:label  "President"@en ;
         owl:sameAs  dbpedia:President_of_the_United_States .
 
-oke:Joel_Gilbert_1  a  dul:NaturalPerson , owl:Individual ;
+oke:Joel_Gilbert_1  a  dul:Person , owl:Individual ;
         rdfs:label  "Joel Gilbert"@en ;
         owl:sameAs  dbpedia:Joel_Gilbert .
 
@@ -4400,7 +4400,7 @@ oke:chief_judge  a  dul:Role , owl:Individual ;
         owl:sameAs  dbpedia:Chief_judge .
 
 oke:John_Joseph_Earley
-        a           dul:NaturalPerson , owl:Individual ;
+        a           dul:Person , owl:Individual ;
         rdfs:label  "John Joseph Earley"@en ;
         owl:sameAs  dbpedia:John_Joseph_Earley .
 
@@ -4412,7 +4412,7 @@ oke:Lac_du_Bonnet  a  dul:Place , owl:Individual ;
         rdfs:label  "Lac du Bonnet"@en ;
         owl:sameAs  <http://dbpedia.org/resource/Lac_du_Bonnet_(electoral_district)> .
 
-oke:Joshua_Fry_Speed  a  dul:NaturalPerson , owl:Individual ;
+oke:Joshua_Fry_Speed  a  dul:Person , owl:Individual ;
         rdfs:label  "Joshua Fry Speed"@en ;
         owl:sameAs  dbpedia:Joshua_Fry_Speed .
 
