@@ -23,12 +23,15 @@ Task 1
 
 This task consists of (i) identifying Entities in a sentence and create an OWL individual (owl:Individual statement) representing it, (ii) link (owl:sameAs statement) such individual, when possible, to a reference KB (DBpedia) and (iii) assigning a type to such individual (rdf:type statement) selected from a set of given types.
 
-In this task by Entity we mean any discourse referent, either named or unanimous, that is an individual of one of the following [DOLCE Ultra Lite classes](http://stlab.istc.cnr.it/stlab/WikipediaOntology/): 
+In this task by Entity we mean any discourse referent (the actors and
+objects around which a story unfolds), either named or anonymous that is an individual of one of the following [DOLCE Ultra Lite classes](http://stlab.istc.cnr.it/stlab/WikipediaOntology/): 
 
 - Person
 - Place
 - Organization
 - Role
+
+Entities also include anaphorically related discourse referents. Hence, anaphora resolution has to be take into account for addressing the task.
 
 As an example, for the sentence: 
 
@@ -175,4 +178,3 @@ We will evaluate two aspects on this task, independently:
 - Ability to produce a meaningful label for an identified relation. We will use a similarity measure of the produced string against the gold standard. As final measure we will score systems based on the average similarity score of all produced relation labels.
 
 The winner for task 3 will be the system with higher linear combination of the score for the two subtasks.
-

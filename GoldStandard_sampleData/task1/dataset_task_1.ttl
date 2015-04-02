@@ -210,8 +210,7 @@ oke:Des_Moines  a   dul:Place , owl:Individual ;
         itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/Noank,_Connecticut> .
 
 oke:Woman_1  a      dul:Person , owl:Individual ;
-        rdfs:label  "a woman"@en ;
-        owl:sameAs  dbpedia:Edward_C._Burks .
+        rdfs:label  "a woman"@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-54#char=0,55>
         a               nif:String , nif:RFC5147String , nif:Context ;
