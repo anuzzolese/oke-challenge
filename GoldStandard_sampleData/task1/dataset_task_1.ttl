@@ -1014,11 +1014,11 @@ oke:Mills_College  a  dul:Organization , owl:Individual ;
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-90#char=177,188>
         a                     nif:String , nif:RFC5147String ;
-        nif:anchorOf          "Charborough House"@en ;
+        nif:anchorOf          "Charborough"@en ;
         nif:beginIndex        "177"^^xsd:int ;
         nif:endIndex          "188"^^xsd:int ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-90#char=0,313> ;
-        itsrdf:taIdentRef     oke:Charborough_House .
+        itsrdf:taIdentRef     oke:Charborough .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-76#char=14,21>
         a                     nif:String , nif:RFC5147String ;
@@ -2320,7 +2320,7 @@ oke:Guy_1  a        dul:Person , owl:Individual ;
 
 oke:Charborough  a  dul:Place , owl:Individual ;
         rdfs:label  "Charborough"@en ;
-        owl:sameAs  <http://dbpedia.org/resource/Morden,_Dorset> .
+        owl:sameAs  dbpedia:Charborough_House .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-69#char=0,16>
         a                     nif:String , nif:RFC5147String ;
@@ -3073,13 +3073,13 @@ oke:civil_engineering
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-13#char=0,147> ;
         itsrdf:taIdentRef     oke:Demerara .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-90#char=42,53>
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-90#char=42,59>
         a                     nif:String , nif:RFC5147String ;
-        nif:anchorOf          "Charborough"@en ;
+        nif:anchorOf          "Charborough House"@en ;
         nif:beginIndex        "42"^^xsd:int ;
-        nif:endIndex          "53"^^xsd:int ;
+        nif:endIndex          "59"^^xsd:int ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-90#char=0,313> ;
-        itsrdf:taIdentRef     oke:Charborough .
+        itsrdf:taIdentRef     oke:Charborough_House .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-45#char=69,75>
         a                     nif:String , nif:RFC5147String ;
