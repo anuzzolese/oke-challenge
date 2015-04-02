@@ -2529,9 +2529,9 @@ oke:Louisiana_State_University_System
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-18#char=0,114> ;
         itsrdf:taIdentRef     oke:Lee_Allen_1 .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-15#char=2,27>
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-15#char=2,28>
         a                     nif:String , nif:RFC5147String ;
-        nif:anchorOf          "native of Auburn, New Yor"@en ;
+        nif:anchorOf          "native of Auburn, New York"@en ;
         nif:beginIndex        "2"^^xsd:int ;
         nif:endIndex          "28"^^xsd:int ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-15#char=0,145> ;
