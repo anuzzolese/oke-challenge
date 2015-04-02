@@ -1016,8 +1016,8 @@ oke:Mills_College  a  dul:Organization , owl:Individual ;
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-90#char=177,188>
         a                     nif:String , nif:RFC5147String ;
         nif:anchorOf          "Charborough House"@en ;
-        nif:beginIndex        “177”^^xsd:int ;
-        nif:endIndex          “188”^^xsd:int ;
+        nif:beginIndex        "177"^^xsd:int ;
+        nif:endIndex          "188"^^xsd:int ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-90#char=0,313> ;
         itsrdf:taIdentRef     oke:Charborough_House .
 
@@ -2534,7 +2534,7 @@ oke:Louisiana_State_University_System
         a                     nif:String , nif:RFC5147String ;
         nif:anchorOf          "native of Auburn, New Yor"@en ;
         nif:beginIndex        "2"^^xsd:int ;
-        nif:endIndex          "28”^^xsd:int ;
+        nif:endIndex          "28"^^xsd:int ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-15#char=0,145> ;
         itsrdf:taIdentRef     <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/Native_of_Auburn,_New_York_1> .
 
@@ -3766,7 +3766,7 @@ oke:Michael_Hollinger
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/St._Mark's_School>
         a           dul:Organization , owl:Individual ;
         rdfs:label  "St. Mark's School"@en ;
-        owl:sameAs  dbpedia:St._Mark's_School_(Massachusetts) .
+        owl:sameAs  <http://dbpedia.org/resource/St._Mark's_School_(Massachusetts)> .
 
 oke:David_L._Bazelon  a  dul:Person , owl:Individual ;
         rdfs:label  "David L. Bazelon"@en ;
