@@ -762,7 +762,7 @@ oke:assistant_professor
         nif:endIndex    "153"^^xsd:int ;
         nif:isString    "Thomas Pole was born on 13 October 1753 in Philadelphia, the youngest son of John Pole , a native of Wiveliscombe, Somerset, who emigrated to New Jersey."@en .
 
-oke:Grinnell_College  a  dul:Person , owl:Individual ;
+oke:Grinnell_College  a  dul:Organization , owl:Individual ;
         rdfs:label  "Grinnell College"@en ;
         owl:sameAs  dbpedia:Grinnell_College .
 
@@ -2688,7 +2688,7 @@ oke:Fontainebleau  a  dul:Place , owl:Individual ;
         rdfs:label  "Fontainebleau"@en ;
         owl:sameAs  dbpedia:Fontainebleau .
 
-oke:Coles_Bashford  a  dul:Role , owl:Individual ;
+oke:Coles_Bashford  a  dul:Person , owl:Individual ;
         rdfs:label  "Coles Bashford"@en ;
         owl:sameAs  dbpedia:Coles_Bashford .
 
@@ -3305,7 +3305,7 @@ oke:Donna_Brazile  a  dul:Person , owl:Individual ;
         owl:sameAs  dbpedia:Donna_Brazile .
 
 oke:Methodist_Episcopal
-        a           dul:Person , owl:Individual ;
+        a           dul:Role , owl:Individual ;
         rdfs:label  "Methodist Episcopal"@en ;
         owl:sameAs  dbpedia:Methodist_Episcopal_Church .
 
