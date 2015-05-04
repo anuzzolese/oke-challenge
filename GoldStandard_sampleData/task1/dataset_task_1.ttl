@@ -617,7 +617,7 @@ oke:Shivaji_University
 
 oke:Richard_Taylor  a  dul:Person , owl:Individual ;
         rdfs:label  "Richard Taylor"@en ;
-        owl:sameAs  <http://dbpedia.org/resource/Richard_Taylor_(UK_politician)> .
+        owl:sameAs  dbpedia:Richard_Taylor_(British_politician) .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-65#char=0,78>
         a               nif:String , nif:RFC5147String , nif:Context ;
@@ -1508,7 +1508,7 @@ oke:University_of_Illinois_at_Chicago
 oke:School_of_Oriental_and_African_Studies
         a           dul:Organization , owl:Individual ;
         rdfs:label  "School of Oriental and African Studies"@en ;
-        owl:sameAs  dbpedia:School_of_Oriental_and_African_Studies .
+        owl:sameAs  dbpedia:SOAS,_University_of_London .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-57#char=0,109>
         a               nif:String , nif:RFC5147String , nif:Context ;
@@ -1518,7 +1518,7 @@ oke:School_of_Oriental_and_African_Studies
 
 oke:entrepreneur  a  dul:Role , owl:Individual ;
         rdfs:label  "entrepreneur"@en ;
-        owl:sameAs  dbpedia:Entrepreneur .
+        owl:sameAs  dbpedia:Entrepreneurship .
 
 oke:University_1  a  dul:Organization , owl:Individual ;
         rdfs:label  "a university"@en ;
@@ -1613,7 +1613,7 @@ oke:Disney_Studios  a  dul:Organization , owl:Individual ;
 oke:Chungju_National_University
         a           dul:Organization , owl:Individual ;
         rdfs:label  "Chungju National University"@en ;
-        owl:sameAs  dbpedia:Chungju_National_University .
+        owl:sameAs  dbpedia:Korea_National_University_of_Transportation .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-89#char=0,13>
         a                     nif:String , nif:RFC5147String ;
@@ -1951,8 +1951,7 @@ oke:Louisiana_State_University
         itsrdf:taIdentRef     oke:club_promoter .
 
 oke:Nickerson_family  a  dul:Organization , owl:Individual ;
-        rdfs:label  "Nickerson family"@en ;
-        owl:sameAs  dbpedia:Nickerson .
+        rdfs:label  "Nickerson family"@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-63#char=21,34>
         a                     nif:String , nif:RFC5147String ;
@@ -2469,7 +2468,7 @@ oke:University_of_Chicago_Law_School
 oke:City_University_of_New_York_Graduate_Center
         a           dul:Organization , owl:Individual ;
         rdfs:label  "City University of New York Graduate Center"@en ;
-        owl:sameAs  dbpedia:CUNY_Graduate_Center .
+        owl:sameAs  dbpedia:The_Graduate_Center,_CUNY .
 
 oke:Calcutta_University
         a           dul:Organization , owl:Individual ;
@@ -3372,8 +3371,7 @@ oke:Pittsburgh  a   dul:Organization , owl:Individual ;
         owl:sameAs  dbpedia:University_of_Pittsburgh .
 
 oke:Cumming  a      dul:Person , owl:Individual ;
-        rdfs:label  "Cumming"@en ;
-        owl:sameAs  dbpedia:Charles_Atherton_Cumming .
+        rdfs:label  "Cumming"@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-76#char=35,44>
         a                     nif:String , nif:RFC5147String ;
@@ -3946,7 +3944,7 @@ oke:New_Dramatists  a  dul:Organization , owl:Individual ;
 oke:Iowa_District_Court
         a           dul:Organization , owl:Individual ;
         rdfs:label  "Iowa District Court"@en ;
-        owl:sameAs  dbpedia:United_States_District_Court_for_the_District_of_Iowa .
+        owl:sameAs  dbpedia:List_of_former_United_States_district_courts .
 
 oke:Parsons_School_of_Design
         a           dul:Organization , owl:Individual ;
