@@ -741,7 +741,7 @@ oke:Bill_Clinton  a  dul:Person , owl:Individual ;
 
 oke:Demerara  a     dul:Place , owl:Individual ;
         rdfs:label  "Demerara"@en ;
-        owl:sameAs  dbpedia:Guyana .
+        owl:sameAs  dbpedia:Demerara .
 
 oke:assistant_professor
         a           dul:Role , owl:Individual ;
