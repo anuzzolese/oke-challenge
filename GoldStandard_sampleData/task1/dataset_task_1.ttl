@@ -876,7 +876,7 @@ oke:Andrea_Pole  a  dul:Person , owl:Individual ;
 
 oke:sniper  a       dul:Role , owl:Individual ;
         rdfs:label  "sniper"@en ;
-        owl:sameAs  dbpedia:Sniper_rifle .
+        owl:sameAs  dbpedia:Sniper .
 
 oke:Putney  a       dul:Place , owl:Individual ;
         rdfs:label  "Putney"@en ;
