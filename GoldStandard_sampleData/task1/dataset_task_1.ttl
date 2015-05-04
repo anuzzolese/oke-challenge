@@ -4516,3 +4516,35 @@ oke:political_adviser
         nif:endIndex          "20"^^xsd:int ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-47#char=0,106> ;
         itsrdf:taIdentRef     oke:Jack_Conroy .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-86#char=33,37>
+        a                     nif:String , nif:RFC5147String ;
+        nif:anchorOf          "poet"@en ;
+        nif:beginIndex        "33"^^xsd:int ;
+        nif:endIndex          "37"^^xsd:int ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-86#char=0,220> ;
+        itsrdf:taIdentRef     oke:poet .
+        
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-86#char=155,171>
+        a                     nif:String , nif:RFC5147String ;
+        nif:anchorOf          "Cleopatra Mathis"@en ;
+        nif:beginIndex        "155"^^xsd:int ;
+        nif:endIndex          "171"^^xsd:int ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-86#char=0,220> ;
+        itsrdf:taIdentRef     oke:Cleopatra_Mathis .        
+        
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-73#char=170,184>
+        a                     nif:String , nif:RFC5147String ;
+        nif:anchorOf          "Vice-President"@en ;
+        nif:beginIndex        "170"^^xsd:int ;
+        nif:endIndex          "184"^^xsd:int ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-73#char=0,192> ;
+        itsrdf:taIdentRef     oke:vice-president .
+        
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-62#char=136,153>
+        a                     nif:String , nif:RFC5147String ;
+        nif:anchorOf          "civil engineering"@en ;
+        nif:beginIndex        "136"^^xsd:int ;
+        nif:endIndex          "153"^^xsd:int ;
+        nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-62#char=0,237> ;
+        itsrdf:taIdentRef     oke:civil_engineering .
