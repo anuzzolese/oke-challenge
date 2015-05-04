@@ -845,8 +845,7 @@ oke:Chung-Ang_University_Graduate_School_of_Arts
         owl:sameAs  dbpedia:Chung-Ang_University .
 
 oke:Andrea_Pole  a  dul:Person , owl:Individual ;
-        rdfs:label  "Thomas Pole"@en ;
-        owl:sameAs  dbpedia:Thomas_Pole .
+        rdfs:label  "Andrea Pole"@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-10#char=125,131>
         a                     nif:String , nif:RFC5147String ;
