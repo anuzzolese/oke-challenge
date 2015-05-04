@@ -1776,7 +1776,7 @@ oke:clergyman  a    dul:Role , owl:Individual ;
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-82#char=135,162>
         a                     nif:String , nif:RFC5147String ;
-        nif:anchorOf          "Kellogg School of Managemen"@en ;
+        nif:anchorOf          "Kellogg School of Management"@en ;
         nif:beginIndex        "135"^^xsd:int ;
         nif:endIndex          "162"^^xsd:int ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-82#char=0,191> ;
@@ -2819,7 +2819,7 @@ oke:University_of_Pennsylvania
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-49#char=5,13>
         a                     nif:String , nif:RFC5147String ;
-        nif:anchorOf          "andidate"@en ;
+        nif:anchorOf          "candidate"@en ;
         nif:beginIndex        "5"^^xsd:int ;
         nif:endIndex          "13"^^xsd:int ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-49#char=0,75> ;
@@ -2884,7 +2884,7 @@ oke:Thomas_Erle  a  dul:Person , owl:Individual ;
 
 oke:Kellogg_School_of_Managemen
         a           dul:Organization , owl:Individual ;
-        rdfs:label  "Kellogg School of Managemen"@en ;
+        rdfs:label  "Kellogg School of Management"@en ;
         owl:sameAs  dbpedia:Kellogg_School_of_Management .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-70#char=52,74>
@@ -3774,7 +3774,7 @@ oke:Southampton  a  dul:Place , owl:Individual ;
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-94#char=48,67>
         a                     nif:String , nif:RFC5147String ;
-        nif:anchorOf          " Columbia Universit"@en ;
+        nif:anchorOf          "Columbia University"@en ;
         nif:beginIndex        "48"^^xsd:int ;
         nif:endIndex          "67"^^xsd:int ;
         nif:referenceContext  <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-94#char=0,69> ;
