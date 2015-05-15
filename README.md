@@ -7,7 +7,7 @@ Each task will have a separate dataset. All sentences in the three datasets are 
 
 The **example data** used in the following description of tasks is available in folder [example_data](./example_data)
 
-**Training data**, will be available in folder [training_data](./training_data)
+A sample of the **Gold Standard data**, will be available in folder [GoldStandard_sampleData](./GoldStandard_sampleData)
 
 Participants must:
 
@@ -19,27 +19,30 @@ Participants must:
 Task 1
 =========
 
-*Named Entity Recognition, Linking and Typing for Knowledge Base population.*
+*Entity Recognition, Linking and Typing for Knowledge Base population.*
 
-This task consists of (i) identifying Named Entities in a sentence and create an OWL individual (owl:Individual statement) representing it, (ii) assigning a type to such individual (rdf:type statement) selected from a set of given types and (iii) link (owl:sameAs statement) such individual, when possible, to a reference KB (DBpedia).
+This task consists of (i) identifying Entities in a sentence and create an OWL individual (owl:Individual statement) representing it, (ii) link (owl:sameAs statement) such individual, when possible, to a reference KB (DBpedia) and (iii) assigning a type to such individual (rdf:type statement) selected from a set of given types.
 
-In the task we will evaluate the extraction of four specific types, from [DOLCE Ultra Lite classes](http://stlab.istc.cnr.it/stlab/WikipediaOntology/): 
+In this task by Entity we mean any discourse referent (the actors and
+objects around which a story unfolds), either named or anonymous that is an individual of one of the following [DOLCE Ultra Lite classes](http://stlab.istc.cnr.it/stlab/WikipediaOntology/): 
 
 - Person
 - Place
 - Organization
 - Role
 
+Entities also include anaphorically related discourse referents. Hence, anaphora resolution has to be take into account for addressing the task.
+
 As an example, for the sentence: 
 
-> Florence May Harding studied at the National Art School in Sydney, and with Douglas Robert Dundas , but in effect had no formal training in either botany or art.	
+> Florence May Harding studied at a school in Sydney, and with Douglas Robert Dundas , but in effect had no formal training in either botany or art.	
 
 we want the system to recognize four entities:
 
 | Recognized Entity    | generated URI | Type     | SameAs|
 | ------------- |:-------------|:-------------:| -----:|
 | Florence May Harding      |oke:Florence_May_Harding| dul:Person | dbpedia:Florence_May_Harding |
-| National Art School      | oke:National_Art_School|dul:Organization    |   dbpedia:National_Art_School |
+| school      | oke:School|dul:Organization    |    |
 | Sydney | oke:Sydney| dul:Place      |    dbpedia:Sydney  |
 | Douglas Robert Dundas |oke:Douglas_Robert_Dundas| dul:Person      |      |
 
@@ -175,4 +178,3 @@ We will evaluate two aspects on this task, independently:
 - Ability to produce a meaningful label for an identified relation. We will use a similarity measure of the produced string against the gold standard. As final measure we will score systems based on the average similarity score of all produced relation labels.
 
 The winner for task 3 will be the system with higher linear combination of the score for the two subtasks.
-
