@@ -617,7 +617,7 @@ oke:Shivaji_University
 
 oke:Richard_Taylor  a  dul:Person , owl:Individual ;
         rdfs:label  "Richard Taylor"@en ;
-        owl:sameAs  dbpedia:Richard_Taylor_(British_politician) .
+        owl:sameAs  <http://dbpedia.org/resource/Richard_Taylor_(British_politician)> .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-65#char=0,78>
         a               nif:String , nif:RFC5147String , nif:Context ;
@@ -1508,7 +1508,7 @@ oke:University_of_Illinois_at_Chicago
 oke:School_of_Oriental_and_African_Studies
         a           dul:Organization , owl:Individual ;
         rdfs:label  "School of Oriental and African Studies"@en ;
-        owl:sameAs  dbpedia:SOAS,_University_of_London .
+        owl:sameAs  <http://dbpedia.org/resource/SOAS,_University_of_London> .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-57#char=0,109>
         a               nif:String , nif:RFC5147String , nif:Context ;
@@ -2468,7 +2468,7 @@ oke:University_of_Chicago_Law_School
 oke:City_University_of_New_York_Graduate_Center
         a           dul:Organization , owl:Individual ;
         rdfs:label  "City University of New York Graduate Center"@en ;
-        owl:sameAs  dbpedia:The_Graduate_Center,_CUNY .
+        owl:sameAs  <http://dbpedia.org/resource/dbpedia:The_Graduate_Center,_CUNY> .
 
 oke:Calcutta_University
         a           dul:Organization , owl:Individual ;
