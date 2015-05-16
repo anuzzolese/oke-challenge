@@ -2468,7 +2468,7 @@ oke:University_of_Chicago_Law_School
 oke:City_University_of_New_York_Graduate_Center
         a           dul:Organization , owl:Individual ;
         rdfs:label  "City University of New York Graduate Center"@en ;
-        owl:sameAs  <http://dbpedia.org/resource/dbpedia:The_Graduate_Center,_CUNY> .
+        owl:sameAs  <http://dbpedia.org/resource/The_Graduate_Center,_CUNY> .
 
 oke:Calcutta_University
         a           dul:Organization , owl:Individual ;
