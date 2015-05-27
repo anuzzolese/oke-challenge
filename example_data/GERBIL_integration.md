@@ -1,3 +1,5 @@
+# GERBIL integration for the evaluation
+
 The following is an example of a cURL POST request that GERBIL performs to an annotation system.
 The URL http://system_end_point should be replaced with the actual publicly accessible URL of the system.
 The NIF-compliant turtle provided as ra input contains the sentence(s) to be annotated.
