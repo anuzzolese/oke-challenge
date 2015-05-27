@@ -2,7 +2,7 @@
 
 The following is an example of a cURL POST request that GERBIL performs to an annotation system.
 The URL http://system_end_point should be replaced with the actual publicly accessible URL of the system.
-The NIF-compliant turtle provided as ra input contains the sentence(s) to be annotated.
+The NIF-compliant turtle provided as input contains the sentence to be annotated.
 
 ```
 curl -H "Content-Type:application/x-turtle" -H "Accept:application/x-turtle" 
