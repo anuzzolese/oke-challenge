@@ -2,6 +2,7 @@ The following is an example of a cURL POST request that GERBIL performs to an an
 The URL http://system_end_point should be replaced with the actual publicly accessible URL of the system.
 The NIF-compliant turtle provided as ra input contains the sentence(s) to be annotated.
 
+'''
 curl -H "Content-Type:application/x-turtle" -H "Accept:application/x-turtle" 
   -d "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
       @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -21,6 +22,7 @@ curl -H "Content-Type:application/x-turtle" -H "Accept:application/x-turtle"
               nif:isString          \"Florence May Harding studied at a school in Sydney, and with Douglas Robert Dundas , but in effect had no formal training in either botany or art.\"@en ." 
           
   http://system_end_point
+'''
   
 An annotation system should produce a valid NIF-compliant turtle as output. Such a turlte contains the annotations produced by 
 an annotation system, cf. https://github.com/anuzzolese/oke-challenge/blob/master/example_data/task1.ttl for details.
