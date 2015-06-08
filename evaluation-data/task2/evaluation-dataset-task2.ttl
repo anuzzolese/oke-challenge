@@ -229,13 +229,13 @@
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-1#char=28,58>
         a       <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String> ;
         <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf>
-                "observable streak or shaft of "@en ;
+                "observable precipitation shaft"@en ;
         <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex>
                 "28"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
         <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex>
                 "58"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
         <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#referenceContext>
-                <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-1#char=0,356> ;
+                <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-1#char=0,343> ;
         <http://www.w3.org/2005/11/its/rdf#taIdentRef>
                 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Shaft> , <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/PrecipitationShaft> .
 
@@ -687,7 +687,7 @@
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/PrecipitationShaft>
         a       <http://www.w3.org/2002/07/owl#Class> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "observable streak or shaft of "@en ;
+                "observable precipitation shaft"@en ;
         <http://www.w3.org/2000/01/rdf-schema#subClassOf>
                 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Shaft> , <http://ontologydesignpatterns.org/ont/wikipedia/d0.owl#Event> .
 
@@ -830,15 +830,6 @@
                 "partially ordered set"@en ;
         <http://www.w3.org/2000/01/rdf-schema#subClassOf>
                 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Set> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Abstract> .
-
-<http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-1#char=0,356>
-        a       <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Context> ;
-        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex>
-                "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
-        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex>
-                "356"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
-        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#isString>
-                "In meteorology, virga is an observable streak or shaft of precipitation that falls from a cloud but evaporates or sublimes before reaching the ground. At high altitudes the precipitation falls mainly as ice crystals before melting and finally evaporating; this is often due to compressional heating, because the air pressure increases closer to the ground."@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-2#char=34,46>
         a       <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String> ;
@@ -1365,7 +1356,7 @@
         <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex>
                 "21"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
         <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#referenceContext>
-                <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-1#char=0,356> ;
+                <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-1#char=0,343> ;
         <http://www.w3.org/2005/11/its/rdf#taIdentRef>
                 <http://dbpedia.org/resource/Virga> .
 
@@ -4061,7 +4052,7 @@
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Shaft>
         a       <http://www.w3.org/2002/07/owl#Class> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "observable streak or shaft of "@en ;
+                "observable precipitation shaft"@en ;
         <http://www.w3.org/2000/01/rdf-schema#subClassOf>
                 <http://ontologydesignpatterns.org/ont/wikipedia/d0.owl#Event> .
 
@@ -4684,6 +4675,15 @@
         a       <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Unit> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "province"@en .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-1#char=0,343>
+        a       <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Context> ;
+        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex>
+                "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex>
+                "343"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#isString>
+                "In meteorology, virga is an observable precipitation shaft that falls from a cloud but evaporates or sublimes before reaching the ground. At high altitudes the precipitation falls mainly as ice crystals before melting and finally evaporating; this is often due to compressional heating, because the air pressure increases closer to the ground."@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-26#char=43,51>
         a       <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String> ;
