@@ -34,7 +34,7 @@
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Writer>
         a       <http://www.w3.org/2002/07/owl#Class> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "riter."@en ;
+                "writer"@en ;
         <http://www.w3.org/2000/01/rdf-schema#subClassOf>
                 <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Person> .
 
@@ -63,7 +63,7 @@
 <http://dbpedia.org/resource/Cemal_S%C3%BCreya>
         a       <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Writer> , <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Poet> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "emâl Süreya,"@en .
+                "Cemâl Süreya"@en .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-46#char=0,274>
         a       <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Context> ;
@@ -1009,19 +1009,6 @@
                 "272"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
         <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#isString>
                 "The Basilica of Santa Maria del Popolo is an Augustinian church in Rome, Italy. It stands on the north side of Piazza del Popolo, one of the most famous squares in the city. The church is hemmed in between Porta del Popolo (the ancient Porta Flaminia) and the Pincio hill."@en .
-
-<http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-29#char=246,250>
-        a       <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String> ;
-        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf>
-                "oet "@en ;
-        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex>
-                "246"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
-        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex>
-                "250"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
-        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#referenceContext>
-                <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-29#char=0,261> ;
-        <http://www.w3.org/2005/11/its/rdf#taIdentRef>
-                <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Poet> .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-84#char=17,24>
         a       <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String> ;
@@ -2345,6 +2332,19 @@
         <http://www.w3.org/2000/01/rdf-schema#subClassOf>
                 <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity> .
 
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-29#char=254,260>
+        a       <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String> ;
+        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf>
+                "writer"@en ;
+        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex>
+                "254"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex>
+                "260"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#referenceContext>
+                <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-29#char=0,261> ;
+        <http://www.w3.org/2005/11/its/rdf#taIdentRef>
+                <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Writer> .
+
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-24#char=0,17>
         a       <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String> ;
         <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf>
@@ -2542,13 +2542,6 @@
         <http://www.w3.org/2005/11/its/rdf#taIdentRef>
                 <http://dbpedia.org/resource/Bhima> .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/DanceMusicArtist>
-        a       <http://www.w3.org/2002/07/owl#Class> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "French electronic dance music artist"@en ;
-        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
-                <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/MusicArtist> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Person> .
-
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-64#char=0,209>
         a       <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Context> ;
         <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex>
@@ -2558,18 +2551,12 @@
         <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#isString>
                 "Munkebo is a town in central Denmark, located in Kerteminde municipality, Region of Southern Denmark on the island of Funen. It was also the site of the municipal council of the abolished Munkebo municipality."@en .
 
-<http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-29#char=255,261>
-        a       <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String> ;
-        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf>
-                "riter."@en ;
-        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex>
-                "255"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
-        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex>
-                "261"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
-        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#referenceContext>
-                <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-29#char=0,261> ;
-        <http://www.w3.org/2005/11/its/rdf#taIdentRef>
-                <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Writer> .
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/DanceMusicArtist>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "French electronic dance music artist"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/MusicArtist> , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Person> .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-99#char=0,13>
         a       <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String> ;
@@ -3016,11 +3003,6 @@
         <http://www.w3.org/2000/01/rdf-schema#subClassOf>
                 <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Personification> .
 
-<http://dbpedia.org/resource/Cooperative_learning>
-        a       <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Approach> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cooperative learning"@en .
-
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-44#char=21,30>
         a       <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String> ;
         <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf>
@@ -3033,6 +3015,24 @@
                 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-44#char=0,323> ;
         <http://www.w3.org/2005/11/its/rdf#taIdentRef>
                 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Tag> .
+
+<http://dbpedia.org/resource/Cooperative_learning>
+        a       <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Approach> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cooperative learning"@en .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-29#char=245,249>
+        a       <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String> ;
+        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf>
+                "poet"@en ;
+        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex>
+                "245"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex>
+                "249"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#referenceContext>
+                <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-29#char=0,261> ;
+        <http://www.w3.org/2005/11/its/rdf#taIdentRef>
+                <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Poet> .
 
 <http://dbpedia.org/resource/Bulls_of_Guisando>
         a       <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/SetOfCeltiberianSculptures> ;
@@ -3166,19 +3166,6 @@
                 "360"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
         <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#isString>
                 "Year 412 BC was a year of the pre-Julian Roman calendar. At the time, it was known as the Year of the Consulship of Ambustus and Pacilus (or, less frequently, year 342 Ab urbe condita). The denomination 412 BC for this year has been used since the early medieval period, when the Anno Domini calendar era became the prevalent method in Europe for naming years."@en .
-
-<http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-29#char=194,206>
-        a       <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String> ;
-        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf>
-                "emâl Süreya,"@en ;
-        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex>
-                "194"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
-        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex>
-                "206"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
-        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#referenceContext>
-                <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-29#char=0,261> ;
-        <http://www.w3.org/2005/11/its/rdf#taIdentRef>
-                <http://dbpedia.org/resource/Cemal_S%C3%BCreya> .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-35#char=0,8>
         a       <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String> ;
@@ -3318,7 +3305,7 @@
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Poet>
         a       <http://www.w3.org/2002/07/owl#Class> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "oet "@en ;
+                "poet"@en ;
         <http://www.w3.org/2000/01/rdf-schema#subClassOf>
                 <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Person> .
 
@@ -4057,6 +4044,19 @@
                 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-41#char=0,83> ;
         <http://www.w3.org/2005/11/its/rdf#taIdentRef>
                 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Town> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-29#char=193,205>
+        a       <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#String> , <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String> ;
+        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf>
+                "Cemâl Süreya"@en ;
+        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex>
+                "193"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex>
+                "205"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#referenceContext>
+                <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/sentence-29#char=0,261> ;
+        <http://www.w3.org/2005/11/its/rdf#taIdentRef>
+                <http://dbpedia.org/resource/Cemal_S%C3%BCreya> .
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge/task-2/Shaft>
         a       <http://www.w3.org/2002/07/owl#Class> ;
