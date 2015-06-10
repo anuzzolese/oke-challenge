@@ -201,3 +201,12 @@ Results
 *Powered by*
 
 ![GERBIL](./img/gerbil.png)
+
+Winners
+=========
+
+**Task 1**
+ - Adel - Julien Plu, Giuseppe Rizzo and Raphaël Troncy. *A Hybrid Approach for Entity Recognition and Linking*
+
+**Task 2**
+ - CETUS - Michael Röder, Ricardo Usbeck and Axel-Cyrille Ngonga Ngomo. *CETUS — A Baseline Approach to Type Extraction*
