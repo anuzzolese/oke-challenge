@@ -178,3 +178,25 @@ We will evaluate two aspects on this task, independently:
 - Ability to produce a meaningful label for an identified relation. We will use a similarity measure of the produced string against the gold standard. As final measure we will score systems based on the average similarity score of all produced relation labels.
 
 The winner for task 3 will be the system with higher linear combination of the score for the two subtasks.
+
+Results
+=========
+
+**Task 1**
+
+| Annotator | Micro F1 | Micro Precision | Micro Recall | Macro F1 | Macro Precision | Macro Recall |
+|-----------|----------|-----------------|--------------|----------|-----------------|--------------|
+| Adel      | 0.6075   |     0.6938      |    0.5403    |  0.6039  |      0.685      |     0.54     |
+| FOX       | 0.4988   |     0.6639      |    0.4099    |  0.4807  |      0.6329     |     0.4138   |
+| FRED      | 0.3473   |     0.4667      |    0.2766    |  0.2278  |      0.3061     |     0.1814   |
+
+**Task 2**
+
+| Annotator | Micro F1 | Micro Precision | Micro Recall | Macro F1 | Macro Precision | Macro Recall |
+|-----------|----------|-----------------|--------------|----------|-----------------|--------------|
+| CETUS     | 0.4735   |     0.4455      |    0.5203    |  0,4478  |      0.4182     |     0.5328   |
+| Sheffield | 0.4416   |     0.5155      |    0.39      |  0.3939  |      0.3965     |     0.3981   |
+| FRED      | 0.3043   |     0.2893      |    0.3211    |  0.2746  |      0.2569     |     0.3173   |
+
+*Powered by*
+![Gerbil](https://camo.githubusercontent.com/75a6154d361b36846ac4111aa4321eb8a755f2bb/687474703a2f2f3133392e31382e322e3136342f6d726f656465722f67657262696c2f67657262696c5f6c6f676f2e706e67)
