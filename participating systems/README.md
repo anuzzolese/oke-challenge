@@ -34,7 +34,7 @@ For Task 2 the participants are:
 
 *Powered by*
 
-![GERBIL](./img/gerbil.png)
+![GERBIL](../img/gerbil.png)
 
 
 Winners
