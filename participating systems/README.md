@@ -4,16 +4,16 @@ Participating systems
 
 For Task 1 the participants are:
 
-- **FOX**: Michael Röder, Ricardo Usbeck and Axel-Cyrille Ngonga Ngomo.  [CETUS — A Baseline Approach to Type Extraction](./participating systems/OKE2015_submission_1.pdf)
-- **FRED**: Sergio Consoli and Diego Reforgiato.  [Using FRED for Named Entity Resolution, Linking and Typing for Knowledge Base population](./participating systems/OKE2015_submission_3.pdf)
-- **Adel**: Julien Plu, Giuseppe Rizzo and Raphaël Troncy. [A Hybrid Approach for Entity Recognition and Linking](./participating systems/OKE2015_submission_2.pdf)
+- **FOX**: Michael Röder, Ricardo Usbeck and Axel-Cyrille Ngonga Ngomo.  [CETUS — A Baseline Approach to Type Extraction](../participating systems/OKE2015_submission_1.pdf)
+- **FRED**: Sergio Consoli and Diego Reforgiato.  [Using FRED for Named Entity Resolution, Linking and Typing for Knowledge Base population](../participating systems/OKE2015_submission_3.pdf)
+- **Adel**: Julien Plu, Giuseppe Rizzo and Raphaël Troncy. [A Hybrid Approach for Entity Recognition and Linking](../participating systems/OKE2015_submission_2.pdf)
 
 
 For Task 2 the participants are:
 
-- **CETUS**: Michael Röder, Ricardo Usbeck and Axel-Cyrille Ngonga Ngomo.  [CETUS — A Baseline Approach to Type Extraction](./participating systems/OKE2015_submission_1.pdf)
-- **FRED**: Sergio Consoli and Diego Reforgiato.  [Using FRED for Named Entity Resolution, Linking and Typing for Knowledge Base population](./participating systems/OKE2015_submission_3.pdf)
-- **OAK@Sheffield**: Jie Gao and Suvodeep Mazumdar. [Exploiting Linked Open Data to Uncover Entity Type](./participating systems/OKE2015_submission_4.pdf)
+- **CETUS**: Michael Röder, Ricardo Usbeck and Axel-Cyrille Ngonga Ngomo.  [CETUS — A Baseline Approach to Type Extraction](../participating systems/OKE2015_submission_1.pdf)
+- **FRED**: Sergio Consoli and Diego Reforgiato.  [Using FRED for Named Entity Resolution, Linking and Typing for Knowledge Base population](../participating systems/OKE2015_submission_3.pdf)
+- **OAK@Sheffield**: Jie Gao and Suvodeep Mazumdar. [Exploiting Linked Open Data to Uncover Entity Type](../participating systems/OKE2015_submission_4.pdf)
 
 
 **Results for Task 1**
