@@ -13,7 +13,7 @@ For Task 2 the participants are:
 
 - **CETUS**: Michael Röder, Ricardo Usbeck and Axel-Cyrille Ngonga Ngomo.  [CETUS — A Baseline Approach to Type Extraction](./OKE2015_submission_1.pdf)
 - **FRED**: Sergio Consoli and Diego Reforgiato.  [Using FRED for Named Entity Resolution, Linking and Typing for Knowledge Base population](./OKE2015_submission_3.pdf)
-- **OAK@Sheffield**: Jie Gao and Suvodeep Mazumdar. [Exploiting Linked Open Data to Uncover Entity Type](./OKE2015_submission_4.pdf)
+- **OAK@Sheffield**: Jie Gao and Suvodeep Mazumdar. [Exploiting Linked Open Data to Uncover Entity Types](./OKE2015_submission_4.pdf)
 
 
 **Results for Task 1**
