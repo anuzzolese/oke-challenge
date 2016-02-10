@@ -5,25 +5,26 @@ The URL http://system_end_point should be replaced with the actual publicly acce
 The NIF-compliant turtle provided as input contains the sentence to be annotated.
 
 ```
-curl -H "Content-Type:application/x-turtle" -H "Accept:application/x-turtle" 
-  -d "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-      @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-      @prefix owl: <http://www.w3.org/2002/07/owl#> .
-      @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-      @prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
-      @prefix d0: <http://ontologydesignpatterns.org/ont/wikipedia/d0.owl#> .
-      @prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
-      @prefix oke: <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/> .
-      @prefix dbpedia: <http://dbpedia.org/resource/> .
-      @prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+curl -i -X POST -H "Content-Type:application/x-turtle" -H "Accept:application/x-turtle" --data-binary @nif.ttl  http://your-systems-URL
+```
+The file `nif.ttl` contains the NIF data, e.g.:
+```
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix d0: <http://ontologydesignpatterns.org/ont/wikipedia/d0.owl#> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix oke: <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
 
-      <http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=0,146>
-              a                     nif:RFC5147String , nif:String , nif:Context ;
-              nif:beginIndex        \"0\"^^xsd:nonNegativeInteger ;
-              nif:endIndex          \"146\"^^xsd:nonNegativeInteger ;
-              nif:isString          \"Florence May Harding studied at a school in Sydney, and with Douglas Robert Dundas , but in effect had no formal training in either botany or art.\"@en ." 
-          
-  http://system_end_point
+<http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-1#char=0,146>
+        a                     nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "146"^^xsd:nonNegativeInteger ;
+        nif:isString          "Florence May Harding studied at a school in Sydney, and with Douglas Robert Dundas , but in effect had no formal training in either botany or art."@en .
 ```
   
 An annotation system should produce a valid NIF-compliant turtle as output. Such a turlte contains the annotations produced by 
